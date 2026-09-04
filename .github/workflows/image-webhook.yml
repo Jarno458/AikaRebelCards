@@ -1,0 +1,49 @@
+name: Image Webhook Handler
+
+on:
+  repository_dispatch:
+    types: [image-upload]
+
+permissions:
+  contents: write
+
+jobs:
+  process-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rotate images
+        run: |
+          # Rotate existing images (2.png -> 3.png, etc. up to 10.png)
+          for i in {9..1}; do
+            next=$((i + 1))
+            if [ $next -le 10 ]; then
+              if [ -f "$i.png" ]; then
+                mv "$i.png" "$next.png"
+              fi
+            fi
+          done
+
+      - name: Save new image
+        env:
+          IMAGE_DATA: ${{ github.event.client_payload.image }}
+        run: |
+          # Decode the base64 image data and save to 1.png
+          echo "$IMAGE_DATA" | base64 -d > 1.png
+
+      - name: Clean up old images
+        run: |
+          # Remove images older than 10.png
+          for i in {11..20}; do
+            rm -f "$i.png"
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update images: new image added, rotated history" || echo "No changes to commit"
+          git push

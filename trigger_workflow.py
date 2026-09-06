@@ -5,8 +5,13 @@ import os
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = "Jarno458/AikaRebelCards"
 
-def trigger_github_workflow(image_data: bytes):
-    """Trigger the GitHub image-upload workflow with file data already read"""
+def trigger_github_workflow(image_data: bytes, filename: str):
+    """Trigger the GitHub image-upload workflow with file data already read
+    
+    Args:
+        image_data (bytes): The image file data already read from disk
+        filename (str): The filename to include in the payload
+    """
     
     # Encode the image data as base64
     image_base64 = base64.b64encode(image_data).decode("utf-8")
@@ -21,7 +26,8 @@ def trigger_github_workflow(image_data: bytes):
         json={
             "event_type": "image-upload",
             "client_payload": {
-                "image": image_base64
+                "image": image_base64,
+                "filename": filename
             }
         }
     )
@@ -33,8 +39,6 @@ def trigger_github_workflow(image_data: bytes):
         print(response.text)
 
 # Usage in your script:
-# If you already have image data read:
-# with open("image.png", "rb") as f:
-#     image_data = f.read()
-# 
-# trigger_github_workflow(image_data)
+# If you already have image data read (bytes):
+# image_data = b"...your image bytes..."
+# trigger_github_workflow(image_data, "my_image.png")

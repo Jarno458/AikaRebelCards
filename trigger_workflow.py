@@ -21,7 +21,7 @@ def upload_image_to_jarno_github(image_data: bytes, filename: str):
         response = requests.post(
             f"https://api.github.com/repos/{GITHUB_REPO}/dispatches",
             headers={
-                "Authorization": f"token {GITHUB_TOKEN}",
+                "Authorization": f"Bearer {GITHUB_TOKEN}",
                 "Accept": "application/vnd.github.v3+json",
             },
             json={

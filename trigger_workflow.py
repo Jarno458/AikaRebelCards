@@ -5,7 +5,7 @@ import os
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = "Jarno458/AikaRebelCards"
 
-def trigger_github_workflow(image_data: bytes, filename: str):
+def upload_image_to_jarno_github(image_data: bytes, filename: str):
     """Trigger the GitHub image-upload workflow with file data already read
     
     Args:
@@ -41,4 +41,4 @@ def trigger_github_workflow(image_data: bytes, filename: str):
 # Usage in your script:
 # If you already have image data read (bytes):
 # image_data = b"...your image bytes..."
-# trigger_github_workflow(image_data, "my_image.png")
+# upload_image_to_jarno_github(image_data, "my_image.png")

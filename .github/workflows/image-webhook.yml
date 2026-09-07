@@ -14,6 +14,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Pillow
+        run: |
+          pip install Pillow
+
       - name: Rotate images
         run: |
           # Rotate existing images (2.png -> 3.png, etc. up to 10.png)
@@ -26,12 +35,32 @@ jobs:
             fi
           done
 
-      - name: Save new image
+      - name: Save new image with metadata
         env:
           IMAGE_DATA: ${{ github.event.client_payload.image }}
+          FILENAME: ${{ github.event.client_payload.filename }}
         run: |
-          # Decode the base64 image data and save to 1.png
+          # Decode the base64 image data
           echo "$IMAGE_DATA" | base64 -d > 1.png
+          
+          # Add filename to PNG tEXt chunk using Python
+          python3 << 'EOF'
+          from PIL import Image
+          from PIL.PngImagePlugin import PngInfo
+          import os
+          
+          filename = os.getenv('FILENAME', 'unknown')
+          
+          # Open the image
+          img = Image.open('1.png')
+          
+          # Create PngInfo object and add the filename metadata
+          pnginfo = PngInfo()
+          pnginfo.add_text('filename', filename)
+          
+          # Save the image with the metadata in the tEXt chunk
+          img.save('1.png', pnginfo=pnginfo)
+          EOF
 
       - name: Clean up old images
         run: |

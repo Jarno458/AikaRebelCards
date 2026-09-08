@@ -3,13 +3,28 @@ Shader "VRChat/TextParallaxDetector"
     Properties
     {
         _MainTex ("Image Texture", 2D) = "white" {}
-        _TextColor ("Text Color", Color) = (1, 1, 1, 1)
-        _BackgroundColor ("Background Color", Color) = (0.5, 0.5, 0.5, 1)
+        
+        // Text Color Detection
+        _RedTextMin ("Red Text Min Threshold", Range(0.0, 1.0)) = 0.5
+        _RedTextMax ("Red Text Max Threshold", Range(0.0, 1.0)) = 1.0
+        _RedIntensity ("Red Channel Intensity", Range(0.0, 2.0)) = 1.2
+        
+        _GoldTextMin ("Gold Text Min Threshold", Range(0.0, 1.0)) = 0.4
+        _GoldTextMax ("Gold Text Max Threshold", Range(0.0, 1.0)) = 0.9
+        _GoldIntensity ("Gold Channel Intensity", Range(0.0, 2.0)) = 1.1
+        
+        _WhiteTextThreshold ("White Text Threshold", Range(0.0, 1.0)) = 0.7
+        
+        // Color Range Tuning (HSV-based detection)
+        _RedHueRange ("Red Hue Range", Range(0.0, 0.1)) = 0.05
+        _GoldHueRange ("Gold Hue Range", Range(0.0, 0.2)) = 0.12
+        
         _EdgeThreshold ("Edge Detection Threshold", Range(0.0, 1.0)) = 0.3
         _ParallaxStrength ("Parallax Strength", Range(0.0, 1.0)) = 0.5
         _ParallaxDistance ("Parallax Distance", Range(-0.1, 0.1)) = 0.05
         _SmoothingRadius ("Text Smoothing Radius", Range(1, 10)) = 3.0
         _ContrastBoost ("Contrast Boost", Range(1.0, 3.0)) = 1.5
+        _TextEnhance ("Text Color Enhancement", Range(0.0, 2.0)) = 1.3
     }
     
     SubShader
@@ -36,26 +51,131 @@ Shader "VRChat/TextParallaxDetector"
             {
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
-                float3 worldPos : TEXCOORD1;
             };
             
             sampler2D _MainTex;
             float4 _MainTex_ST;
-            float4 _TextColor;
-            float4 _BackgroundColor;
+            
+            // Red text properties
+            float _RedTextMin;
+            float _RedTextMax;
+            float _RedIntensity;
+            float _RedHueRange;
+            
+            // Gold text properties
+            float _GoldTextMin;
+            float _GoldTextMax;
+            float _GoldIntensity;
+            float _GoldHueRange;
+            
+            // White text properties
+            float _WhiteTextThreshold;
+            
+            // Effect properties
             float _EdgeThreshold;
             float _ParallaxStrength;
             float _ParallaxDistance;
             float _SmoothingRadius;
             float _ContrastBoost;
+            float _TextEnhance;
             
             v2f vert (appdata v)
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
                 return o;
+            }
+            
+            // Convert RGB to HSV
+            float3 RGBtoHSV(float3 rgb)
+            {
+                float maxc = max(max(rgb.r, rgb.g), rgb.b);
+                float minc = min(min(rgb.r, rgb.g), rgb.b);
+                float v = maxc;
+                
+                float delta = maxc - minc;
+                float s = maxc > 0.0 ? delta / maxc : 0.0;
+                
+                float h = 0.0;
+                if (delta != 0.0)
+                {
+                    if (maxc == rgb.r)
+                        h = fmod((rgb.g - rgb.b) / delta, 6.0) / 6.0;
+                    else if (maxc == rgb.g)
+                        h = ((rgb.b - rgb.r) / delta + 2.0) / 6.0;
+                    else
+                        h = ((rgb.r - rgb.g) / delta + 4.0) / 6.0;
+                }
+                
+                return float3(h, s, v);
+            }
+            
+            // Detect red text by color range
+            float DetectRedText(float3 rgb, float3 hsv)
+            {
+                // Red hue is around 0.0 (wraps around)
+                float hueDistance = min(abs(hsv.x - 0.0), min(abs(hsv.x - 1.0), 1.0 - abs(hsv.x)));
+                float hueMatch = smoothstep(_RedHueRange, 0.0, hueDistance);
+                
+                // Check saturation and value ranges for red text
+                float satMatch = smoothstep(_RedTextMin - 0.2, _RedTextMin, hsv.y) * 
+                                smoothstep(_RedTextMax + 0.1, _RedTextMax, hsv.y);
+                float valMatch = smoothstep(_RedTextMin - 0.1, _RedTextMin, hsv.z) *
+                                smoothstep(_RedTextMax, _RedTextMax - 0.1, hsv.z);
+                
+                // Direct red channel check
+                float redDominance = rgb.r > (rgb.g + rgb.b) * 0.5 ? 1.0 : 0.0;
+                
+                return max(hueMatch * satMatch * valMatch, redDominance * rgb.r);
+            }
+            
+            // Detect gold/tan text by color range
+            float DetectGoldText(float3 rgb, float3 hsv)
+            {
+                // Gold hue is around 0.08-0.15 (yellow-orange range)
+                float goldHue = 0.12;
+                float hueDistance = abs(hsv.x - goldHue);
+                float hueMatch = smoothstep(_GoldHueRange, 0.0, hueDistance);
+                
+                // Check saturation and value for gold
+                float satMatch = smoothstep(_GoldTextMin - 0.1, _GoldTextMin, hsv.y) *
+                                smoothstep(_GoldTextMax + 0.1, _GoldTextMax, hsv.y);
+                float valMatch = smoothstep(_GoldTextMin, _GoldTextMax, hsv.z);
+                
+                // Direct channel check for gold (high R+G, lower B)
+                float goldDominance = (rgb.r + rgb.g) > rgb.b * 1.5 && rgb.r > 0.3 ? 1.0 : 0.0;
+                
+                return max(hueMatch * satMatch * valMatch, goldDominance * (rgb.r + rgb.g) * 0.5);
+            }
+            
+            // Detect white/light text
+            float DetectWhiteText(float3 rgb, float3 hsv)
+            {
+                // White has low saturation and high value
+                float isWhite = step(_WhiteTextThreshold, hsv.z) * smoothstep(0.3, 0.0, hsv.y);
+                
+                // Also check if all channels are similarly high
+                float channelBalance = 1.0 - (abs(rgb.r - rgb.g) + abs(rgb.g - rgb.b) + abs(rgb.b - rgb.r)) / 3.0;
+                
+                return max(isWhite, channelBalance * hsv.z);
+            }
+            
+            // Combined text detection using color ranges
+            float DetectColoredText(float2 uv)
+            {
+                float4 texel = tex2D(_MainTex, uv);
+                float3 rgb = texel.rgb;
+                float3 hsv = RGBtoHSV(rgb);
+                
+                float redScore = DetectRedText(rgb, hsv);
+                float goldScore = DetectGoldText(rgb, hsv);
+                float whiteScore = DetectWhiteText(rgb, hsv);
+                
+                // Combine all text detection methods
+                float textScore = max(max(redScore, goldScore), whiteScore);
+                
+                return textScore;
             }
             
             // Edge detection using Sobel operator
@@ -64,7 +184,6 @@ Shader "VRChat/TextParallaxDetector"
                 float sobelX = 0.0;
                 float sobelY = 0.0;
                 
-                // Sobel kernel for edge detection
                 float sobel[9] = {
                     -1, 0, 1,
                     -2, 0, 2,
@@ -93,11 +212,12 @@ Shader "VRChat/TextParallaxDetector"
                 return sqrt(sobelX * sobelX + sobelY * sobelY);
             }
             
-            // Detect text likelihood based on local contrast and edges
+            // Hybrid text detection: color + edge + contrast
             float DetectText(float2 uv, float pixelSize)
             {
-                float edge = EdgeDetection(uv, pixelSize);
-                edge = smoothstep(_EdgeThreshold - 0.1, _EdgeThreshold + 0.1, edge);
+                float colorScore = DetectColoredText(uv);
+                float edgeScore = EdgeDetection(uv, pixelSize);
+                edgeScore = smoothstep(_EdgeThreshold - 0.1, _EdgeThreshold + 0.1, edgeScore);
                 
                 // Local contrast detection
                 float4 center = tex2D(_MainTex, uv);
@@ -116,7 +236,8 @@ Shader "VRChat/TextParallaxDetector"
                 contrast /= float(samples);
                 contrast = pow(contrast, _ContrastBoost);
                 
-                return max(edge, contrast * 0.5);
+                // Combine: color detection is primary, edges and contrast support it
+                return max(colorScore, max(edgeScore * 0.6, contrast * 0.4));
             }
             
             // Apply median filter for text region smoothing
@@ -133,7 +254,7 @@ Shader "VRChat/TextParallaxDetector"
                     }
                 }
                 
-                // Simple sort for median (simplified for shader)
+                // Simple sort for median
                 for(int i = 0; i < 9; i++)
                 {
                     for(int j = i + 1; j < 9; j++)
@@ -161,31 +282,26 @@ Shader "VRChat/TextParallaxDetector"
             
             fixed4 frag (v2f i) : SV_Target
             {
-                float pixelSize = 1.0 / 512.0; // Adjust based on texture resolution
+                float pixelSize = 1.0 / 512.0;
                 
-                // Detect text regions
+                // Detect text regions with color awareness
                 float textMask = MedianFilter(i.uv, pixelSize * _SmoothingRadius);
-                textMask = smoothstep(0.3, 0.7, textMask);
+                textMask = smoothstep(0.2, 0.8, textMask);
                 
-                // Apply parallax to background
+                // Apply parallax to background only
                 float2 parallaxUV = ApplyParallax(i.uv, textMask);
                 float4 texColor = tex2D(_MainTex, parallaxUV);
+                float4 textColor = tex2D(_MainTex, i.uv);
                 
-                // Separate text and background
-                float4 textLayer = texColor;
-                float4 backgroundLayer = texColor;
+                // Enhance text layer with detected colors
+                float4 result = lerp(texColor, textColor, textMask);
                 
-                // Enhance text visibility
-                textLayer.rgb = lerp(texColor.rgb, _TextColor.rgb, textMask * 0.3);
-                textLayer.rgb = normalize(textLayer.rgb) * lerp(1.0, 1.2, textMask);
+                // Boost text colors without oversaturation
+                result.rgb = lerp(result.rgb, 
+                                 normalize(textColor.rgb + float3(0.1, 0.1, 0.1)) * _TextEnhance,
+                                 textMask * 0.4);
                 
-                // Darken background slightly for depth
-                backgroundLayer.rgb = lerp(backgroundLayer.rgb, _BackgroundColor.rgb, (1.0 - textMask) * 0.2);
-                
-                // Composite layers
-                fixed4 finalColor = lerp(backgroundLayer, textLayer, textMask);
-                
-                return finalColor;
+                return result;
             }
             ENDCG
         }

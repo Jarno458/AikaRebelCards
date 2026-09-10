@@ -14,11 +14,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
       - name: Find and replace oldest card
         env:
           IMAGE_DATA: ${{ github.event.client_payload.image }}
@@ -26,66 +21,44 @@ jobs:
           RARITY: ${{ github.event.client_payload.rarity || 'common' }}
           FINISH: ${{ github.event.client_payload.finish || 'normal' }}
         run: |
-          python3 << 'EOF'
-          import json
-          import base64
-          from datetime import datetime
-          import os
+          #!/bin/bash
+          set -e
 
-          # Load properties.json
-          with open('properties.json', 'r') as f:
-            properties = json.load(f)
+          # Decode base64 image data
+          echo "$IMAGE_DATA" | base64 -d > temp_image.png
 
-          # Decode the base64 image data
-          image_base64 = os.getenv('IMAGE_DATA')
-          image_data = base64.b64decode(image_base64)
-          
-          filename = os.getenv('FILENAME', 'unknown')
-          rarity = os.getenv('RARITY', 'common')
-          finish = os.getenv('FINISH', 'normal')
-          current_timestamp = datetime.utcnow().isoformat()
+          # Get current timestamp in ISO 8601 format
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%S")
 
-          # Find the slot with the oldest upload timestamp
-          oldest_slot = None
-          oldest_time = None
+          # Read properties.json and find oldest card
+          OLDEST_SLOT=$(jq -r '.cards | sort_by(.uploadTimestamp // "9999-12-31T23:59:59") | .[0].slot' properties.json)
 
-          for card in properties['cards']:
-            if card['uploadTimestamp'] is None:
-              # If any slot is empty, use the first empty slot
-              oldest_slot = card['slot']
-              break
-            else:
-              card_time = datetime.fromisoformat(card['uploadTimestamp'])
-              if oldest_time is None or card_time < oldest_time:
-                oldest_time = card_time
-                oldest_slot = card['slot']
+          # Save image with the slot number
+          mv temp_image.png "${OLDEST_SLOT}.png"
 
-          # Save the new image to the oldest slot
-          image_filename = f"{oldest_slot}.png"
-          
-          # Decode and save the image
-          with open(image_filename, 'wb') as f:
-            f.write(image_data)
+          # Update properties.json with new card data
+          jq --arg slot "$OLDEST_SLOT" \
+             --arg filename "$FILENAME" \
+             --arg rarity "$RARITY" \
+             --arg finish "$FINISH" \
+             --arg timestamp "$TIMESTAMP" \
+             '.cards |= map(
+               if .slot == ($slot | tonumber) then
+                 .filename = $filename |
+                 .rarity = $rarity |
+                 .finish = $finish |
+                 .uploadTimestamp = $timestamp
+               else
+                 .
+               end
+             )' \
+             properties.json > properties.json.tmp && mv properties.json.tmp properties.json
 
-          # Update properties.json
-          for card in properties['cards']:
-            if card['slot'] == oldest_slot:
-              card['filename'] = filename
-              card['rarity'] = rarity
-              card['finish'] = finish
-              card['uploadTimestamp'] = current_timestamp
-              break
-
-          # Write updated properties.json
-          with open('properties.json', 'w') as f:
-            json.dump(properties, f, indent=2)
-
-          print(f"✓ Replaced card in slot {oldest_slot}")
-          print(f"  Filename: {filename}")
-          print(f"  Rarity: {rarity}")
-          print(f"  Finish: {finish}")
-          print(f"  Timestamp: {current_timestamp}")
-          EOF
+          echo "✓ Replaced card in slot ${OLDEST_SLOT}"
+          echo "  Filename: ${FILENAME}"
+          echo "  Rarity: ${RARITY}"
+          echo "  Finish: ${FINISH}"
+          echo "  Timestamp: ${TIMESTAMP}"
 
       - name: Commit and push
         run: |

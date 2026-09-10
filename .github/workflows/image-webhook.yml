@@ -19,60 +19,78 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Pillow
-        run: |
-          pip install Pillow
-
-      - name: Rotate images
-        run: |
-          # Rotate existing images (2.png -> 3.png, etc. up to 10.png)
-          for i in {9..1}; do
-            next=$((i + 1))
-            if [ $next -le 10 ]; then
-              if [ -f "$i.png" ]; then
-                mv "$i.png" "$next.png"
-              fi
-            fi
-          done
-
-      - name: Save new image with metadata
+      - name: Find and replace oldest card
         env:
           IMAGE_DATA: ${{ github.event.client_payload.image }}
           FILENAME: ${{ github.event.client_payload.filename }}
+          RARITY: ${{ github.event.client_payload.rarity || 'common' }}
+          FINISH: ${{ github.event.client_payload.finish || 'normal' }}
         run: |
-          # Decode the base64 image data
-          echo "$IMAGE_DATA" | base64 -d > 1.png
-          
-          # Add filename to PNG tEXt chunk using Python
           python3 << 'EOF'
-          from PIL import Image
-          from PIL.PngImagePlugin import PngInfo
+          import json
+          import base64
+          from datetime import datetime
           import os
+
+          # Load properties.json
+          with open('properties.json', 'r') as f:
+            properties = json.load(f)
+
+          # Decode the base64 image data
+          image_base64 = os.getenv('IMAGE_DATA')
+          image_data = base64.b64decode(image_base64)
           
           filename = os.getenv('FILENAME', 'unknown')
-          
-          # Open the image
-          img = Image.open('1.png')
-          
-          # Create PngInfo object and add the filename metadata
-          pnginfo = PngInfo()
-          pnginfo.add_text('filename', filename)
-          
-          # Save the image with the metadata in the tEXt chunk
-          img.save('1.png', pnginfo=pnginfo)
-          EOF
+          rarity = os.getenv('RARITY', 'common')
+          finish = os.getenv('FINISH', 'normal')
+          current_timestamp = datetime.utcnow().isoformat()
 
-      - name: Clean up old images
-        run: |
-          # Remove images older than 10.png
-          for i in {11..20}; do
-            rm -f "$i.png"
-          done
+          # Find the slot with the oldest upload timestamp
+          oldest_slot = None
+          oldest_time = None
+
+          for card in properties['cards']:
+            if card['uploadTimestamp'] is None:
+              # If any slot is empty, use the first empty slot
+              oldest_slot = card['slot']
+              break
+            else:
+              card_time = datetime.fromisoformat(card['uploadTimestamp'])
+              if oldest_time is None or card_time < oldest_time:
+                oldest_time = card_time
+                oldest_slot = card['slot']
+
+          # Save the new image to the oldest slot
+          image_filename = f"{oldest_slot}.png"
+          
+          # Decode and save the image
+          with open(image_filename, 'wb') as f:
+            f.write(image_data)
+
+          # Update properties.json
+          for card in properties['cards']:
+            if card['slot'] == oldest_slot:
+              card['filename'] = filename
+              card['rarity'] = rarity
+              card['finish'] = finish
+              card['uploadTimestamp'] = current_timestamp
+              break
+
+          # Write updated properties.json
+          with open('properties.json', 'w') as f:
+            json.dump(properties, f, indent=2)
+
+          print(f"✓ Replaced card in slot {oldest_slot}")
+          print(f"  Filename: {filename}")
+          print(f"  Rarity: {rarity}")
+          print(f"  Finish: {finish}")
+          print(f"  Timestamp: {current_timestamp}")
+          EOF
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Update images: new image added, rotated history" || echo "No changes to commit"
+          git commit -m "Update card: replaced oldest card with new image" || echo "No changes to commit"
           git push

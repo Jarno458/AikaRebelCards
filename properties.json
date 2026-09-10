@@ -1,0 +1,74 @@
+{
+  "cards": [
+    {
+      "slot": 1,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 2,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 3,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 4,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 5,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 6,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 7,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 8,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 9,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    },
+    {
+      "slot": 10,
+      "filename": "unknown",
+      "rarity": "common",
+      "finish": "normal",
+      "uploadTimestamp": null
+    }
+  ]
+}

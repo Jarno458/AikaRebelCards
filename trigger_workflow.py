@@ -5,12 +5,14 @@ import os
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = "Jarno458/AikaRebelCards"
 
-def upload_image_to_jarno_github(image_data: bytes, filename: str):
+def upload_image_to_jarno_github(image_data: bytes, filename: str, rarity: str = "common", finish: str = "normal"):
     """Trigger the GitHub image-upload workflow with file data already read
     
     Args:
         image_data (bytes): The image file data already read from disk
         filename (str): The filename to include in the payload
+        rarity (str): Card rarity level (default: "common")
+        finish (str): Card finish type (default: "normal")
     """
     
     try:
@@ -28,7 +30,9 @@ def upload_image_to_jarno_github(image_data: bytes, filename: str):
                 "event_type": "image-upload",
                 "client_payload": {
                     "image": image_base64,
-                    "filename": filename
+                    "filename": filename,
+                    "rarity": rarity,
+                    "finish": finish
                 }
             }
         )
@@ -45,4 +49,4 @@ def upload_image_to_jarno_github(image_data: bytes, filename: str):
 # Usage in your script:
 # If you already have image data read (bytes):
 # image_data = b"...your image bytes..."
-# upload_image_to_jarno_github(image_data, "my_image.png")
+# upload_image_to_jarno_github(image_data, "my_image.png", rarity="rare", finish="holo")

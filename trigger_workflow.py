@@ -17,14 +17,13 @@ def upload_image_to_jarnos_github(image_data: bytes, filename: str, creator: str
                 "Accept": "application/vnd.github.v3+json",
             },
             json={
-                "event_type": "image-upload",
+                "event_type": f"{type}-upload",
                 "client_payload": {
                     "image": image_base64,
                     "filename": filename,
                     "rarity": rarity,
                     "finish": finish,
                     "creator": creator,
-                    "type": type,
                     "series": series,
                     "description": description,
                 }

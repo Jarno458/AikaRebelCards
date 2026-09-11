@@ -12,63 +12,115 @@
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-10T13:01:50"
     },
     {
       "slot": 3,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-09T13:01:50"
     },
     {
       "slot": 4,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-08T13:01:50"
     },
     {
       "slot": 5,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-07T13:01:50"
     },
     {
       "slot": 6,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-06T13:01:50"
     },
     {
       "slot": 7,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-05T13:01:50"
     },
     {
       "slot": 8,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-04T13:01:50"
     },
     {
       "slot": 9,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-03T13:01:50"
     },
     {
       "slot": 10,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": null
+      "uploadTimestamp": "2026-09-02T13:01:50"
+    }
+  ],
+  "photos": [
+    {
+      "slot": 1,
+      "filename": "my_image.png",
+      "uploadTimestamp": "2026-09-11T13:01:50"
+    },
+    {
+      "slot": 2,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-10T13:01:50"
+    },
+    {
+      "slot": 3,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-09T13:01:50"
+    },
+    {
+      "slot": 4,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-08T13:01:50"
+    },
+    {
+      "slot": 5,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-07T13:01:50"
+    },
+    {
+      "slot": 6,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-06T13:01:50"
+    },
+    {
+      "slot": 7,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-05T13:01:50"
+    },
+    {
+      "slot": 8,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-04T13:01:50"
+    },
+    {
+      "slot": 9,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-03T13:01:50"
+    },
+    {
+      "slot": 10,
+      "filename": "unknown",
+      "uploadTimestamp": "2026-09-02T13:01:50"
     }
   ]
 }

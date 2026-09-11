@@ -12,14 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Find and replace oldest card
         env:
           IMAGE_DATA: ${{ github.event.client_payload.image }}
           FILENAME: ${{ github.event.client_payload.filename }}
-          RARITY: ${{ github.event.client_payload.rarity || 'common' }}
-          FINISH: ${{ github.event.client_payload.finish || 'normal' }}
+          IMAGE_TYPE: ${{ github.event.client_payload.imagetype }}
+          MINTER: ${{ github.event.client_payload.minter || '' }}
+          SERIES: ${{ github.event.client_payload.series || '' }}
+          RARITY: ${{ github.event.client_payload.rarity || '' }}
+          FINISH: ${{ github.event.client_payload.finish || '' }}
         run: |
           #!/bin/bash
           set -e
@@ -27,21 +30,33 @@ jobs:
           # Get current timestamp in ISO 8601 format
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%S")
 
+          if [ "$IMAGE_TYPE" = "card" ]; then
+            TARGET_FOLDER="Cards"
+          else
+            TARGET_FOLDER="Photos"
+          fi
+
+          mkdir -p "$TARGET_FOLDER"
+
           # Read properties.json and find oldest card
           OLDEST_SLOT=$(jq -r '.cards | sort_by(.uploadTimestamp // "9999-12-31T23:59:59") | .[0].slot' properties.json)
 
           # Decode base64 image directly to the correct filename
-          echo "$IMAGE_DATA" | base64 -d > "${OLDEST_SLOT}.png"
+          echo "$IMAGE_DATA" | base64 -d > "${TARGET_FOLDER}/${OLDEST_SLOT}.png"
 
           # Update properties.json with new card data
           jq --arg slot "$OLDEST_SLOT" \
              --arg filename "$FILENAME" \
+             --arg minter "$MINTER" \
+             --arg series "$SERIES" \
              --arg rarity "$RARITY" \
              --arg finish "$FINISH" \
              --arg timestamp "$TIMESTAMP" \
              '.cards |= map(
                if .slot == ($slot | tonumber) then
                  .filename = $filename |
+                 .minter = $minter |
+                 .series = $series |
                  .rarity = $rarity |
                  .finish = $finish |
                  .uploadTimestamp = $timestamp
@@ -52,7 +67,11 @@ jobs:
              properties.json > properties.json.tmp && mv properties.json.tmp properties.json
 
           echo "✓ Replaced card in slot ${OLDEST_SLOT}"
+          echo "  Image type: ${IMAGE_TYPE:-photo}"
+          echo "  Folder: ${TARGET_FOLDER}"
           echo "  Filename: ${FILENAME}"
+          echo "  Minter: ${MINTER}"
+          echo "  Series: ${SERIES}"
           echo "  Rarity: ${RARITY}"
           echo "  Finish: ${FINISH}"
           echo "  Timestamp: ${TIMESTAMP}"

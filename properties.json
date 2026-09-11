@@ -58,10 +58,13 @@
     },
     {
       "slot": 9,
-      "filename": "unknown",
-      "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": "2026-09-03T13:01:50"
+      "filename": "my_image.png",
+      "rarity": "rare",
+      "finish": "holo",
+      "uploadTimestamp": "2026-09-11T14:32:03",
+      "creator": "my_creator",
+      "series": "my_series",
+      "description": "my_description"
     },
     {
       "slot": 10,

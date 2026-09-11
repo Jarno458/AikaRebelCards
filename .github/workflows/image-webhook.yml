@@ -18,11 +18,12 @@ jobs:
         env:
           IMAGE_DATA: ${{ github.event.client_payload.image }}
           FILENAME: ${{ github.event.client_payload.filename }}
-          IMAGE_TYPE: ${{ github.event.client_payload.imagetype }}
-          MINTER: ${{ github.event.client_payload.minter || '' }}
+          IMAGE_TYPE: ${{ github.event.client_payload.type }}
+          CREATOR: ${{ github.event.client_payload.creator || '' }}
           SERIES: ${{ github.event.client_payload.series || '' }}
           RARITY: ${{ github.event.client_payload.rarity || '' }}
           FINISH: ${{ github.event.client_payload.finish || '' }}
+          DESCRIPTION: ${{ github.event.client_payload.description || '' }}
         run: |
           #!/bin/bash
           set -e
@@ -47,16 +48,18 @@ jobs:
           # Update properties.json with new card data
           jq --arg slot "$OLDEST_SLOT" \
              --arg filename "$FILENAME" \
-             --arg minter "$MINTER" \
+             --arg creator "$CREATOR" \
              --arg series "$SERIES" \
+             --arg description "$DESCRIPTION" \
              --arg rarity "$RARITY" \
              --arg finish "$FINISH" \
              --arg timestamp "$TIMESTAMP" \
              '.cards |= map(
                if .slot == ($slot | tonumber) then
                  .filename = $filename |
-                 .minter = $minter |
+                 .creator = $creator |
                  .series = $series |
+                 .description = $description |
                  .rarity = $rarity |
                  .finish = $finish |
                  .uploadTimestamp = $timestamp
@@ -70,8 +73,9 @@ jobs:
           echo "  Image type: ${IMAGE_TYPE:-photo}"
           echo "  Folder: ${TARGET_FOLDER}"
           echo "  Filename: ${FILENAME}"
-          echo "  Minter: ${MINTER}"
+          echo "  Creator: ${CREATOR}"
           echo "  Series: ${SERIES}"
+          echo "  Description: ${DESCRIPTION}"
           echo "  Rarity: ${RARITY}"
           echo "  Finish: ${FINISH}"
           echo "  Timestamp: ${TIMESTAMP}"

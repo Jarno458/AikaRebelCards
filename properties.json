@@ -5,63 +5,63 @@
       "filename": "my_image.png",
       "rarity": "rare",
       "finish": "holo",
-      "uploadTimestamp": "2026-09-11T13:01:50"
+      "uploadTimestamp": "2026-09-11T13:01:50Z"
     },
     {
       "slot": 2,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": "2026-09-10T13:01:50"
+      "uploadTimestamp": "2026-09-10T13:01:50Z"
     },
     {
       "slot": 3,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": "2026-09-09T13:01:50"
+      "uploadTimestamp": "2026-09-09T13:01:50Z"
     },
     {
       "slot": 4,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": "2026-09-08T13:01:50"
+      "uploadTimestamp": "2026-09-08T13:01:50Z"
     },
     {
       "slot": 5,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": "2026-09-07T13:01:50"
+      "uploadTimestamp": "2026-09-07T13:01:50Z"
     },
     {
       "slot": 6,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": "2026-09-06T13:01:50"
+      "uploadTimestamp": "2026-09-06T13:01:50Z"
     },
     {
       "slot": 7,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": "2026-09-05T13:01:50"
+      "uploadTimestamp": "2026-09-05T13:01:50Z"
     },
     {
       "slot": 8,
       "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
-      "uploadTimestamp": "2026-09-04T13:01:50"
+      "uploadTimestamp": "2026-09-04T13:01:50Z"
     },
     {
       "slot": 9,
       "filename": "my_image.png",
       "rarity": "rare",
       "finish": "holo",
-      "uploadTimestamp": "2026-09-11T14:32:03",
+      "uploadTimestamp": "2026-09-11T14:32:03Z",
       "creator": "my_creator",
       "series": "my_series",
       "description": "my_description"
@@ -71,7 +71,7 @@
       "filename": "my_image.png",
       "rarity": "rare",
       "finish": "holo",
-      "uploadTimestamp": "2026-09-11T14:31:07",
+      "uploadTimestamp": "2026-09-11T14:31:07Z",
       "creator": "my_creator",
       "series": "my_series",
       "description": "my_description"
@@ -81,42 +81,42 @@
     {
       "slot": 1,
       "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-11T13:01:50"
+      "uploadTimestamp": "2026-09-11T13:01:50Z"
     },
     {
       "slot": 2,
       "filename": "unknown",
-      "uploadTimestamp": "2026-09-10T13:01:50"
+      "uploadTimestamp": "2026-09-10T13:01:50Z"
     },
     {
       "slot": 3,
       "filename": "unknown",
-      "uploadTimestamp": "2026-09-09T13:01:50"
+      "uploadTimestamp": "2026-09-09T13:01:50Z"
     },
     {
       "slot": 4,
       "filename": "unknown",
-      "uploadTimestamp": "2026-09-08T13:01:50"
+      "uploadTimestamp": "2026-09-08T13:01:50Z"
     },
     {
       "slot": 5,
       "filename": "unknown",
-      "uploadTimestamp": "2026-09-07T13:01:50"
+      "uploadTimestamp": "2026-09-07T13:01:50Z"
     },
     {
       "slot": 6,
       "filename": "unknown",
-      "uploadTimestamp": "2026-09-06T13:01:50"
+      "uploadTimestamp": "2026-09-06T13:01:50Z"
     },
     {
       "slot": 7,
       "filename": "unknown",
-      "uploadTimestamp": "2026-09-05T13:01:50"
+      "uploadTimestamp": "2026-09-05T13:01:50Z"
     },
     {
       "slot": 8,
       "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-11T15:41:55",
+      "uploadTimestamp": "2026-09-11T15:41:55Z",
       "creator": "my_creator",
       "series": "",
       "description": "",
@@ -126,7 +126,7 @@
     {
       "slot": 9,
       "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-11T15:15:11",
+      "uploadTimestamp": "2026-09-11T15:15:11Z",
       "creator": "my_creator",
       "series": "",
       "description": "",
@@ -136,7 +136,7 @@
     {
       "slot": 10,
       "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-11T14:45:27",
+      "uploadTimestamp": "2026-09-11T14:45:27Z",
       "creator": "my_creator",
       "series": "",
       "description": "",

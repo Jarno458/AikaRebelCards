@@ -34,7 +34,7 @@ jobs:
           set -e
 
           # Get current timestamp in ISO 8601 format
-          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%S")
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
           if [ "$IMAGE_TYPE" = "card-upload" ]; then
             TARGET_FOLDER="Cards"

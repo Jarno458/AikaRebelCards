@@ -2,10 +2,10 @@
   "cards": [
     {
       "slot": 1,
-      "filename": "unknown",
-      "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": null
+      "filename": "my_image.png",
+      "rarity": "rare",
+      "finish": "holo",
+      "uploadTimestamp": "2026-09-11T13:01:50"
     },
     {
       "slot": 2,

@@ -48,6 +48,6 @@ image_data = base64.b64decode(
     "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="
     # 1x1 PNG with a red pixel
 )
-upload_image_to_jarnos_github(image_data, "my_image.png", creator="my_creator", type="card", series="my_series", rarity="rare", finish="holo")
+upload_image_to_jarnos_github(image_data, "my_image.png", creator="my_creator", type="card", series="my_series", rarity="rare", finish="holo", description="my_description")
 
 

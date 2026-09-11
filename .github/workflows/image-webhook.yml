@@ -33,8 +33,10 @@ jobs:
 
           if [ "$IMAGE_TYPE" = "card-upload" ]; then
             TARGET_FOLDER="Cards"
+            JSON_COLLECTION="cards"
           elif [ "$IMAGE_TYPE" = "photo-upload" ]; then
             TARGET_FOLDER="Photos"
+            JSON_COLLECTION="photos"
           else
             echo "✗ Unknown image type: $IMAGE_TYPE"
             exit 1
@@ -42,8 +44,8 @@ jobs:
 
           mkdir -p "$TARGET_FOLDER"
 
-          # Read properties.json and find oldest card
-          OLDEST_SLOT=$(jq -r '.cards | sort_by(.uploadTimestamp // "9999-12-31T23:59:59") | .[0].slot' properties.json)
+          # Read properties.json and find the oldest item in the selected collection
+          OLDEST_SLOT=$(jq -r --arg collection "$JSON_COLLECTION" '.[$collection] | sort_by(.uploadTimestamp // "9999-12-31T23:59:59") | .[0].slot' properties.json)
 
           # Decode base64 image directly to the correct filename
           echo "$IMAGE_DATA" | base64 -d > "${TARGET_FOLDER}/${OLDEST_SLOT}.png"
@@ -57,7 +59,8 @@ jobs:
              --arg rarity "$RARITY" \
              --arg finish "$FINISH" \
              --arg timestamp "$TIMESTAMP" \
-             '.cards |= map(
+             --arg collection "$JSON_COLLECTION" \
+             '.[$collection] |= map(
                if .slot == ($slot | tonumber) then
                  .filename = $filename |
                  .creator = $creator |
@@ -72,7 +75,7 @@ jobs:
              )' \
              properties.json > properties.json.tmp && mv properties.json.tmp properties.json
 
-          echo "✓ Replaced card in slot ${OLDEST_SLOT}"
+          echo "✓ Replaced ${JSON_COLLECTION%?} in slot ${OLDEST_SLOT}"
           echo "  Dispatch type: ${IMAGE_TYPE}"
           echo "  Folder: ${TARGET_FOLDER}"
           echo "  Filename: ${FILENAME}"

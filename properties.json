@@ -105,8 +105,13 @@
     },
     {
       "slot": 6,
-      "filename": "unknown",
-      "uploadTimestamp": "2026-09-06T13:01:50Z"
+      "filename": "my_image.png",
+      "uploadTimestamp": "2026-09-14T21:38:38Z",
+      "creator": "my_creator",
+      "series": "",
+      "description": "",
+      "rarity": "",
+      "finish": ""
     },
     {
       "slot": 7,

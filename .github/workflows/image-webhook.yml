@@ -19,10 +19,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Find and replace oldest card
+      - name: Find and replace oldest card or photo
         env:
-          IMAGE_DATA: ${{ github.event.client_payload.image }}
-          FILENAME: ${{ github.event.client_payload.filename }}
+          SUPABASE_URL: ${{ github.event.client_payload.supabase_url }}
+          SUPABASE_BUCKET: ${{ github.event.client_payload.supabase_bucket }}
+          STORAGE_PATH: ${{ github.event.client_payload.storage_path }}
           IMAGE_TYPE: ${{ github.event.action }}
           CREATOR: ${{ github.event.client_payload.creator || '' }}
           SERIES: ${{ github.event.client_payload.series || '' }}
@@ -49,15 +50,21 @@ jobs:
 
           mkdir -p "$TARGET_FOLDER"
 
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_BUCKET" ] || [ -z "$STORAGE_PATH" ]; then
+            echo "✗ Missing Supabase URL, bucket, or storage path"
+            exit 1
+          fi
+
           # Read properties.json and find the oldest item in the selected collection
           OLDEST_SLOT=$(jq -r --arg collection "$JSON_COLLECTION" '.[$collection] | sort_by(.uploadTimestamp // "9999-12-31T23:59:59") | .[0].slot' properties.json)
 
-          # Decode base64 image directly to the correct filename
-          echo "$IMAGE_DATA" | base64 -d > "${TARGET_FOLDER}/${OLDEST_SLOT}.png"
+          # Download the image from the public Supabase Storage URL
+          IMAGE_URL="${SUPABASE_URL%/}/storage/v1/object/public/${SUPABASE_BUCKET#/}/${STORAGE_PATH#/}"
+          wget --quiet --output-document="${TARGET_FOLDER}/${OLDEST_SLOT}.png" "$IMAGE_URL"
 
           # Update properties.json with new card data
           jq --arg slot "$OLDEST_SLOT" \
-             --arg filename "$FILENAME" \
+             --arg image_url "$IMAGE_URL" \
              --arg creator "$CREATOR" \
              --arg series "$SERIES" \
              --arg description "$DESCRIPTION" \
@@ -67,7 +74,7 @@ jobs:
              --arg collection "$JSON_COLLECTION" \
              '.[$collection] |= map(
                if .slot == ($slot | tonumber) then
-                 .filename = $filename |
+                 .image_url = $image_url |
                  .creator = $creator |
                  .series = $series |
                  .description = $description |
@@ -83,7 +90,6 @@ jobs:
           echo "✓ Replaced ${JSON_COLLECTION%?} in slot ${OLDEST_SLOT}"
           echo "  Dispatch type: ${IMAGE_TYPE}"
           echo "  Folder: ${TARGET_FOLDER}"
-          echo "  Filename: ${FILENAME}"
           echo "  Creator: ${CREATOR}"
           echo "  Series: ${SERIES}"
           echo "  Description: ${DESCRIPTION}"

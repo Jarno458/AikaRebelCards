@@ -24,10 +24,21 @@ if [ -z "$SUPABASE_API_TOKEN" ]; then
   exit 1
 fi
 
-# Download card info from Supabase REST API
-CARD_DETAILS=$(wget --quiet --output-document=- \
+# Download and validate card info from Supabase REST API
+if ! CARD_DETAILS=$(wget --quiet --output-document=- \
   --header="apikey: $SUPABASE_API_TOKEN" \
-  "${SUPABASE_URL%/}/rest/v1/cards?select=owner_discord_id,series,description,rarity,finish,image_url,created_at,number_in_series&id=eq.${GUID}")
+  --header="Authorization: Bearer $SUPABASE_API_TOKEN" \
+  --header="Accept: application/json" \
+  "${SUPABASE_URL%/}/rest/v1/cards?select=owner_discord_id,series,description,rarity,finish,image_url,created_at,number_in_series&id=eq.${GUID}"); then
+  echo "Failed to fetch card details from Supabase for GUID: $GUID"
+  exit 1
+fi
+
+if ! echo "$CARD_DETAILS" | jq -e 'type == "array"' > /dev/null; then
+  echo "Supabase returned an invalid card-details response for GUID: $GUID"
+  echo "Response preview: $(printf '%s' "$CARD_DETAILS" | head -c 500)"
+  exit 1
+fi
 
 if [ "$(echo "$CARD_DETAILS" | jq 'length')" -ne 1 ]; then
   echo "No unique card found for GUID: $GUID"

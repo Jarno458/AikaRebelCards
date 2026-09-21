@@ -2,63 +2,59 @@
   "cards": [
     {
       "slot": 1,
-      "filename": "my_image.png",
       "rarity": "rare",
       "finish": "holo",
       "uploadTimestamp": "2026-09-11T13:01:50Z"
     },
     {
       "slot": 2,
-      "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
       "uploadTimestamp": "2026-09-10T13:01:50Z"
     },
     {
       "slot": 3,
-      "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
       "uploadTimestamp": "2026-09-09T13:01:50Z"
     },
     {
       "slot": 4,
-      "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
       "uploadTimestamp": "2026-09-08T13:01:50Z"
     },
     {
       "slot": 5,
-      "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
       "uploadTimestamp": "2026-09-07T13:01:50Z"
     },
     {
       "slot": 6,
-      "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
       "uploadTimestamp": "2026-09-06T13:01:50Z"
     },
     {
       "slot": 7,
-      "filename": "unknown",
       "rarity": "common",
       "finish": "normal",
       "uploadTimestamp": "2026-09-05T13:01:50Z"
     },
     {
       "slot": 8,
-      "filename": "unknown",
       "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": "2026-09-04T13:01:50Z"
+      "finish": "standard",
+      "uploadTimestamp": "2026-08-08T15:25:29.475846+00:00",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260808_102314_79ca19_style47.png",
+      "creator": "style47",
+      "series": "Aika Genesis",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "number_in_series": "1"
     },
     {
       "slot": 9,
-      "filename": "my_image.png",
       "rarity": "rare",
       "finish": "holo",
       "uploadTimestamp": "2026-09-11T14:32:03Z",
@@ -68,7 +64,6 @@
     },
     {
       "slot": 10,
-      "filename": "my_image.png",
       "rarity": "rare",
       "finish": "holo",
       "uploadTimestamp": "2026-09-11T14:31:07Z",
@@ -80,78 +75,43 @@
   "photos": [
     {
       "slot": 1,
-      "filename": "my_image.png",
       "uploadTimestamp": "2026-09-11T13:01:50Z"
     },
     {
       "slot": 2,
-      "filename": "unknown",
       "uploadTimestamp": "2026-09-10T13:01:50Z"
     },
     {
       "slot": 3,
-      "filename": "unknown",
       "uploadTimestamp": "2026-09-09T13:01:50Z"
     },
     {
       "slot": 4,
-      "filename": "unknown",
       "uploadTimestamp": "2026-09-08T13:01:50Z"
     },
     {
       "slot": 5,
-      "filename": "unknown",
       "uploadTimestamp": "2026-09-07T13:01:50Z"
     },
     {
       "slot": 6,
-      "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-14T21:38:38Z",
-      "creator": "my_creator",
-      "series": "",
-      "description": "",
-      "rarity": "",
-      "finish": ""
+      "uploadTimestamp": "2026-09-14T21:38:38Z"
     },
     {
       "slot": 7,
-      "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-11T17:52:01Z",
-      "creator": "my_creator",
-      "series": "",
-      "description": "",
-      "rarity": "",
-      "finish": ""
+      "uploadTimestamp": "2026-09-11T17:52:01Z"
     },
     {
       "slot": 8,
-      "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-11T15:41:55Z",
-      "creator": "my_creator",
-      "series": "",
-      "description": "",
-      "rarity": "",
-      "finish": ""
+      "uploadTimestamp": "2026-09-11T15:41:55Z"
     },
     {
       "slot": 9,
-      "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-11T15:15:11Z",
-      "creator": "my_creator",
-      "series": "",
-      "description": "",
-      "rarity": "",
-      "finish": ""
+      "uploadTimestamp": "2026-09-11T15:15:11Z"
     },
     {
       "slot": 10,
-      "filename": "my_image.png",
-      "uploadTimestamp": "2026-09-11T14:45:27Z",
-      "creator": "my_creator",
-      "series": "",
-      "description": "",
-      "rarity": "",
-      "finish": ""
+      "uploadTimestamp": "2026-09-11T14:45:27Z"
     }
   ]
 }

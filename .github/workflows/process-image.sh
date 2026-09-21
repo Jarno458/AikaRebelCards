@@ -25,34 +25,36 @@ if [ -z "$SUPABASE_API_TOKEN" ]; then
 fi
 
 # Download and validate card info from Supabase REST API
-if ! CARD_DETAILS=$(wget --quiet --output-document=- \
-  --header="apikey: $SUPABASE_API_TOKEN" \
-  --header="Authorization: Bearer $SUPABASE_API_TOKEN" \
-  --header="Accept: application/json" \
-  "${SUPABASE_URL%/}/rest/v1/cards?select=owner_discord_id,series,description,rarity,finish,image_url,created_at,number_in_series&id=eq.${GUID}"); then
+if ! CARD_DETAILS=$(curl --fail --silent --show-error \
+  -H "apikey: $SUPABASE_API_TOKEN" \
+  -H "Accept: application/json" \
+  "${SUPABASE_URL%/}/rest/v1/cards?select=name,owner_discord_id,series,description,rarity,finish,image_url,created_at,number_in_series&id=eq.${GUID}"); then
   echo "Failed to fetch card details from Supabase for GUID: $GUID"
   exit 1
 fi
 
-if ! echo "$CARD_DETAILS" | jq -e 'type == "array"' > /dev/null; then
+if ! printf '%s' "$CARD_DETAILS" | jq -e 'type == "array"' > /dev/null; then
   echo "Supabase returned an invalid card-details response for GUID: $GUID"
-  echo "Response preview: $(printf '%s' "$CARD_DETAILS" | head -c 500)"
+  printf 'Supabase response: '
+  printf '%s' "$CARD_DETAILS"
+  printf '\n'
   exit 1
 fi
 
-if [ "$(echo "$CARD_DETAILS" | jq 'length')" -ne 1 ]; then
+if [ "$(printf '%s' "$CARD_DETAILS" | jq 'length')" -ne 1 ]; then
   echo "No unique card found for GUID: $GUID"
   exit 1
 fi
 
-CREATOR=$(echo "$CARD_DETAILS" | jq -r '.[0].owner_discord_id // ""')
-SERIES=$(echo "$CARD_DETAILS" | jq -r '.[0].series // ""')
-DESCRIPTION=$(echo "$CARD_DETAILS" | jq -r '.[0].description // ""')
-RARITY=$(echo "$CARD_DETAILS" | jq -r '.[0].rarity // ""')
-FINISH=$(echo "$CARD_DETAILS" | jq -r '.[0].finish // ""')
-IMAGE_URL=$(echo "$CARD_DETAILS" | jq -r '.[0].image_url // ""')
-TIMESTAMP=$(echo "$CARD_DETAILS" | jq -r '.[0].created_at // ""')
-NUMBER_IN_SERIES=$(echo "$CARD_DETAILS" | jq -r '.[0].number_in_series // ""')
+CREATOR=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].owner_discord_id // ""')
+NAME=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].name // ""')
+SERIES=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].series // ""')
+DESCRIPTION=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].description // ""')
+RARITY=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].rarity // ""')
+FINISH=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].finish // ""')
+IMAGE_URL=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].image_url // ""')
+TIMESTAMP=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].created_at // ""')
+NUMBER_IN_SERIES=$(printf '%s' "$CARD_DETAILS" | jq -r '.[0].number_in_series // ""')
 
 # Read properties.json and find the oldest item in the selected collection
 OLDEST_SLOT=$(jq -r --arg collection "$JSON_COLLECTION" '.[$collection] | sort_by(.uploadTimestamp // "9999-12-31T23:59:59") | .[0].slot' properties.json)
@@ -63,6 +65,7 @@ wget --quiet --output-document="${TARGET_FOLDER}/${OLDEST_SLOT}.png" "$IMAGE_URL
 # Update properties.json with new card data
 jq --arg slot "$OLDEST_SLOT" \
    --arg image_url "$IMAGE_URL" \
+   --arg name "$NAME" \
    --arg creator "$CREATOR" \
    --arg series "$SERIES" \
    --arg description "$DESCRIPTION" \
@@ -73,6 +76,7 @@ jq --arg slot "$OLDEST_SLOT" \
    --arg collection "$JSON_COLLECTION" \
    '.[$collection] |= map(
      if .slot == ($slot | tonumber) then
+       .name = $name |
        .image_url = $image_url |
        .creator = $creator |
        .series = $series |

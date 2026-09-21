@@ -22,14 +22,9 @@ jobs:
       - name: Find and replace oldest card or photo
         env:
           SUPABASE_URL: ${{ github.event.client_payload.supabase_url }}
-          SUPABASE_BUCKET: ${{ github.event.client_payload.supabase_bucket }}
-          STORAGE_PATH: ${{ github.event.client_payload.storage_path }}
+          GUID: ${{ github.event.client_payload.guid }}
+          SUPABASE_API_TOKEN: ${{ secrets.SUPABASE_TOKEN }}
           IMAGE_TYPE: ${{ github.event.action }}
-          CREATOR: ${{ github.event.client_payload.creator || '' }}
-          SERIES: ${{ github.event.client_payload.series || '' }}
-          RARITY: ${{ github.event.client_payload.rarity || '' }}
-          FINISH: ${{ github.event.client_payload.finish || '' }}
-          DESCRIPTION: ${{ github.event.client_payload.description || '' }}
         run: |
           #!/bin/bash
           set -e
@@ -50,16 +45,38 @@ jobs:
 
           mkdir -p "$TARGET_FOLDER"
 
-          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_BUCKET" ] || [ -z "$STORAGE_PATH" ]; then
-            echo "✗ Missing Supabase URL, bucket, or storage path"
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_BUCKET" ] || [ -z "$STORAGE_PATH" ] || [ -z "$GUID" ]; then
+            echo "✗ Missing Supabase URL, bucket, storage path, or GUID"
             exit 1
           fi
+
+          if [ -z "$SUPABASE_API_TOKEN" ]; then
+            echo "✗ Missing SUPABASE_API_TOKEN secret"
+            exit 1
+          fi
+
+          # Download card info from Supabase REST API
+          CARD_DETAILS=$(wget --quiet --output-document=- \
+            --header="apikey: $SUPABASE_API_TOKEN" \
+            --header="Authorization: Bearer $SUPABASE_API_TOKEN" \
+            "${SUPABASE_URL%/}/rest/v1/cards?select=owner_discord_id,series,description,rarity,finish,image_url&id=eq.${GUID}")
+
+          if [ "$(echo "$CARD_DETAILS" | jq 'length')" -ne 1 ]; then
+            echo "✗ No unique card found for GUID: $GUID"
+            exit 1
+          fi
+
+          CREATOR=$(echo "$CARD_DETAILS" | jq -r '.[0].owner_discord_id // ""')
+          SERIES=$(echo "$CARD_DETAILS" | jq -r '.[0].series // ""')
+          DESCRIPTION=$(echo "$CARD_DETAILS" | jq -r '.[0].description // ""')
+          RARITY=$(echo "$CARD_DETAILS" | jq -r '.[0].rarity // ""')
+          FINISH=$(echo "$CARD_DETAILS" | jq -r '.[0].finish // ""')
+          IMAGE_URL=$(echo "$CARD_DETAILS" | jq -r '.[0].image_url // ""')
 
           # Read properties.json and find the oldest item in the selected collection
           OLDEST_SLOT=$(jq -r --arg collection "$JSON_COLLECTION" '.[$collection] | sort_by(.uploadTimestamp // "9999-12-31T23:59:59") | .[0].slot' properties.json)
 
           # Download the image from the public Supabase Storage URL
-          IMAGE_URL="${SUPABASE_URL%/}/storage/v1/object/public/${SUPABASE_BUCKET#/}/${STORAGE_PATH#/}"
           wget --quiet --output-document="${TARGET_FOLDER}/${OLDEST_SLOT}.png" "$IMAGE_URL"
 
           # Update properties.json with new card data
@@ -90,6 +107,7 @@ jobs:
           echo "✓ Replaced ${JSON_COLLECTION%?} in slot ${OLDEST_SLOT}"
           echo "  Dispatch type: ${IMAGE_TYPE}"
           echo "  Folder: ${TARGET_FOLDER}"
+          echo "  GUID: ${GUID}"
           echo "  Creator: ${CREATOR}"
           echo "  Series: ${SERIES}"
           echo "  Description: ${DESCRIPTION}"

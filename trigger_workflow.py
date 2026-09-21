@@ -3,7 +3,7 @@ import os
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
-def upload_image_to_jarnos_github(supabase_url: str, supabase_bucket: str, storage_path: str, creator: str, type: str, series: str = "", rarity: str = "", finish: str = "", description: str = ""):
+def upload_image_to_jarnos_github(supabase_url: str, supabase_bucket: str, storage_path: str, guid: str, type: str):
     try:
         # Trigger GitHub workflow
         response = http_requests.post(
@@ -18,11 +18,7 @@ def upload_image_to_jarnos_github(supabase_url: str, supabase_bucket: str, stora
                     "supabase_url": supabase_url,
                     "supabase_bucket": supabase_bucket,
                     "storage_path": storage_path,
-                    "rarity": rarity,
-                    "finish": finish,
-                    "creator": creator,
-                    "series": series,
-                    "description": description,
+                    "guid": guid,
                 }
             }
         )
@@ -40,7 +36,7 @@ upload_image_to_jarnos_github(
     supabase_url="https://your-project.supabase.co",
     supabase_bucket="images",
     storage_path="uploads/my_image.png",
-    creator="my_creator",
+    guid="734b9a44-3dbd-49ef-92d3-198a990267d2",
     type="photo",
 )
 

@@ -72,7 +72,7 @@ jq --arg slot "$OLDEST_SLOT" \
    --arg rarity "$RARITY" \
    --arg finish "$FINISH" \
    --arg timestamp "$TIMESTAMP" \
-  --arg number_in_series "$NUMBER_IN_SERIES" \
+   --arg number_in_series "$NUMBER_IN_SERIES" \
    --arg collection "$JSON_COLLECTION" \
    '.[$collection] |= map(
      if .slot == ($slot | tonumber) then

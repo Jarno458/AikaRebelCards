@@ -3,74 +3,122 @@
     {
       "slot": 1,
       "rarity": "rare",
-      "finish": "holo",
-      "uploadTimestamp": "2026-09-11T13:01:50Z"
+      "finish": "glitch",
+      "uploadTimestamp": "2026-09-20T20:57:04.405559+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_155754_4cae32_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
+      "series": "Aika Genesis",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
+      "number_in_series": "1"
     },
     {
       "slot": 2,
-      "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": "2026-09-10T13:01:50Z"
+      "rarity": "rare",
+      "finish": "standard",
+      "uploadTimestamp": "2026-09-20T20:47:43.7555+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_154834_b71183_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
+      "series": "Aika Genesis",
+      "description": "NO FREQUENCY GOES UNCONTESTED.",
+      "number_in_series": "1"
     },
     {
       "slot": 3,
-      "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": "2026-09-09T13:01:50Z"
+      "rarity": "rare",
+      "finish": "standard",
+      "uploadTimestamp": "2026-09-20T20:43:07.679368+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_154356_d6fd64_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
+      "series": "Aika Genesis",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "number_in_series": "1"
     },
     {
       "slot": 4,
-      "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": "2026-09-08T13:01:50Z"
+      "rarity": "rare",
+      "finish": "holo",
+      "uploadTimestamp": "2026-09-20T20:36:30.24648+00:00",
+      "name": "Rebel Card — TS_Jarno",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_153720_856a7c_TS_Jarno.png",
+      "creator": "TS_Jarno",
+      "series": "Aika Genesis",
+      "description": "THEY CAN LOCK THE DOORS. WE OWN THE WIRES.",
+      "number_in_series": "1"
     },
     {
       "slot": 5,
-      "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": "2026-09-07T13:01:50Z"
+      "rarity": "rare",
+      "finish": "holo",
+      "uploadTimestamp": "2026-09-20T20:18:06.589405+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_151857_422587_Vocarei.png",
+      "creator": "Vocarei",
+      "series": "Aika Genesis",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "number_in_series": "1"
     },
     {
       "slot": 6,
       "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": "2026-09-06T13:01:50Z"
+      "finish": "holo",
+      "uploadTimestamp": "2026-09-20T19:49:48.664046+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_145038_603e1e_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
+      "series": "Aika Genesis",
+      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "number_in_series": "1"
     },
     {
       "slot": 7,
-      "rarity": "common",
-      "finish": "normal",
-      "uploadTimestamp": "2026-09-05T13:01:50Z"
+      "rarity": "rare",
+      "finish": "standard",
+      "uploadTimestamp": "2026-09-20T19:48:03.017925+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_144850_d01300_Vocarei.png",
+      "creator": "Vocarei",
+      "series": "Aika Genesis",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "number_in_series": "1"
     },
     {
       "slot": 8,
-      "rarity": "common",
+      "rarity": "epic",
       "finish": "standard",
-      "uploadTimestamp": "2026-08-08T15:25:29.475846+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260808_102314_79ca19_style47.png",
-      "creator": "style47",
+      "uploadTimestamp": "2026-09-20T19:19:35.250045+00:00",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_142025_960f66_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "description": "NO FREQUENCY GOES UNCONTESTED.",
       "number_in_series": "1",
-      "name": "Rebel Card — style47"
+      "name": "Rebel Card — Vocarei"
     },
     {
       "slot": 9,
-      "rarity": "rare",
-      "finish": "holo",
-      "uploadTimestamp": "2026-09-11T14:32:03Z",
-      "creator": "my_creator",
-      "series": "my_series",
-      "description": "my_description"
+      "rarity": "legendary",
+      "finish": "standard",
+      "uploadTimestamp": "2026-09-20T19:14:18.020655+00:00",
+      "creator": "Gabura",
+      "series": "Aika Genesis",
+      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_141508_f9c5b7_Gabura.png",
+      "number_in_series": "1"
     },
     {
       "slot": 10,
-      "rarity": "rare",
+      "rarity": "epic",
       "finish": "holo",
-      "uploadTimestamp": "2026-09-11T14:31:07Z",
-      "creator": "my_creator",
-      "series": "my_series",
-      "description": "my_description"
+      "uploadTimestamp": "2026-09-20T19:06:27.463728+00:00",
+      "creator": "Arch_Fluffy",
+      "series": "Aika Genesis",
+      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_140716_8265d8_Arch_Fluffy.png",
+      "number_in_series": "1"
     }
   ],
   "photos": [

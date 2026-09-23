@@ -110,14 +110,14 @@
     },
     {
       "slot": 10,
-      "rarity": "epic",
-      "finish": "holo",
-      "uploadTimestamp": "2026-09-20T19:06:27.463728+00:00",
-      "creator": "Arch_Fluffy",
-      "series": "Aika Genesis",
-      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_140716_8265d8_Arch_Fluffy.png",
+      "rarity": "common",
+      "finish": "gold",
+      "uploadTimestamp": "2026-09-23T13:12:30.11912+00:00",
+      "creator": "aika_vrdj",
+      "series": "Rebel Day",
+      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "name": "Rebel Card — aika_vrdj",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260923_081153_b78519_aika_vrdj.png",
       "number_in_series": "1"
     }
   ],

@@ -86,15 +86,15 @@
     },
     {
       "slot": 8,
-      "rarity": "epic",
+      "rarity": "common",
       "finish": "standard",
-      "uploadTimestamp": "2026-09-20T19:19:35.250045+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_142025_960f66_Vocarei.png",
-      "creator": "Vocarei",
-      "series": "Aika Genesis",
-      "description": "NO FREQUENCY GOES UNCONTESTED.",
+      "uploadTimestamp": "2026-09-26T01:14:16.640786+00:00",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260925_201340_5d50e7_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
+      "series": "Rebel Day",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
       "number_in_series": "1",
-      "name": "Rebel Card — Vocarei"
+      "name": "Rebel Card — GingerHitmanTTV"
     },
     {
       "slot": 9,

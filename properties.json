@@ -98,14 +98,14 @@
     },
     {
       "slot": 9,
-      "rarity": "common",
-      "finish": "holo",
-      "uploadTimestamp": "2026-09-26T01:03:58.599744+00:00",
-      "creator": "Arch_Fluffy",
-      "series": "Rebel Day",
-      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260925_200319_6cfac2_Arch_Fluffy.png",
+      "rarity": "epic",
+      "finish": "foil",
+      "uploadTimestamp": "2026-09-26T15:34:23.639685+00:00",
+      "creator": "GingerHitmanTTV",
+      "series": "Aika Genesis",
+      "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260926_103350_cc121c_GingerHitmanTTV.png",
       "number_in_series": "1"
     },
     {

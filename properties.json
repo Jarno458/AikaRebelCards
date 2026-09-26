@@ -86,15 +86,15 @@
     },
     {
       "slot": 8,
-      "rarity": "common",
-      "finish": "standard",
-      "uploadTimestamp": "2026-09-26T01:14:16.640786+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260925_201340_5d50e7_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
-      "series": "Rebel Day",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "rarity": "epic",
+      "finish": "foil",
+      "uploadTimestamp": "2026-09-26T15:42:58.829247+00:00",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260926_104225_c7e3fb_Vocarei.png",
+      "creator": "Vocarei",
+      "series": "Aika Genesis",
+      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
       "number_in_series": "1",
-      "name": "Rebel Card — GingerHitmanTTV"
+      "name": "Rebel Card — Vocarei"
     },
     {
       "slot": 9,

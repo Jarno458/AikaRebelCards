@@ -110,14 +110,14 @@
     },
     {
       "slot": 10,
-      "rarity": "common",
-      "finish": "gold",
-      "uploadTimestamp": "2026-09-23T13:12:30.11912+00:00",
-      "creator": "aika_vrdj",
-      "series": "Rebel Day",
-      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
-      "name": "Rebel Card — aika_vrdj",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260923_081153_b78519_aika_vrdj.png",
+      "rarity": "epic",
+      "finish": "foil",
+      "uploadTimestamp": "2026-09-26T15:27:55.670965+00:00",
+      "creator": "Gabura",
+      "series": "Aika Genesis",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260926_102722_d6558f_Gabura.png",
       "number_in_series": "1"
     }
   ],

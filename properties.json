@@ -38,14 +38,14 @@
     },
     {
       "slot": 4,
-      "rarity": "rare",
-      "finish": "holo",
-      "uploadTimestamp": "2026-09-20T20:36:30.24648+00:00",
-      "name": "Rebel Card — TS_Jarno",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_153720_856a7c_TS_Jarno.png",
-      "creator": "TS_Jarno",
-      "series": "Aika Genesis",
-      "description": "THEY CAN LOCK THE DOORS. WE OWN THE WIRES.",
+      "rarity": "uncommon",
+      "finish": "standard",
+      "uploadTimestamp": "2026-09-26T02:56:32.196713+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260925_215557_187057_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
+      "series": "Rebel Day",
+      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
       "number_in_series": "1"
     },
     {

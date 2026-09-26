@@ -15,13 +15,13 @@
     {
       "slot": 2,
       "rarity": "rare",
-      "finish": "standard",
-      "uploadTimestamp": "2026-09-20T20:47:43.7555+00:00",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_154834_b71183_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
+      "finish": "foil",
+      "uploadTimestamp": "2026-09-26T15:15:47.785662+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260926_101513_ca3575_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "NO FREQUENCY GOES UNCONTESTED.",
+      "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
       "number_in_series": "1"
     },
     {

@@ -2,14 +2,14 @@
   "cards": [
     {
       "slot": 1,
-      "rarity": "rare",
-      "finish": "glitch",
-      "uploadTimestamp": "2026-09-20T20:57:04.405559+00:00",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_155754_4cae32_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
+      "rarity": "common",
+      "finish": "foil",
+      "uploadTimestamp": "2026-09-26T15:19:13.640748+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260926_101840_c66c1d_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
+      "description": "EVERY DROP IS A DECLARATION OF WAR.",
       "number_in_series": "1"
     },
     {

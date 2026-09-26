@@ -98,14 +98,14 @@
     },
     {
       "slot": 9,
-      "rarity": "legendary",
-      "finish": "standard",
-      "uploadTimestamp": "2026-09-20T19:14:18.020655+00:00",
-      "creator": "Gabura",
-      "series": "Aika Genesis",
-      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_141508_f9c5b7_Gabura.png",
+      "rarity": "common",
+      "finish": "holo",
+      "uploadTimestamp": "2026-09-26T01:03:58.599744+00:00",
+      "creator": "Arch_Fluffy",
+      "series": "Rebel Day",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260925_200319_6cfac2_Arch_Fluffy.png",
       "number_in_series": "1"
     },
     {

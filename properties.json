@@ -74,14 +74,14 @@
     },
     {
       "slot": 7,
-      "rarity": "rare",
-      "finish": "standard",
-      "uploadTimestamp": "2026-09-20T19:48:03.017925+00:00",
+      "rarity": "common",
+      "finish": "foil",
+      "uploadTimestamp": "2026-09-26T01:17:08.401802+00:00",
       "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_144850_d01300_Vocarei.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260925_201633_852cb1_Vocarei.png",
       "creator": "Vocarei",
-      "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "series": "Rebel Day",
+      "description": "WE DON'T BROADCAST WE INVADE.",
       "number_in_series": "1"
     },
     {

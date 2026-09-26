@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "rare",
-      "finish": "holo",
-      "uploadTimestamp": "2026-09-20T20:18:06.589405+00:00",
+      "rarity": "common",
+      "finish": "standard",
+      "uploadTimestamp": "2026-09-26T02:18:46.552117+00:00",
       "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_151857_422587_Vocarei.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260925_211812_86a1d5_Vocarei.png",
       "creator": "Vocarei",
-      "series": "Aika Genesis",
-      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "series": "Rebel Day",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
       "number_in_series": "1"
     },
     {

@@ -63,12 +63,12 @@
     {
       "slot": 6,
       "rarity": "common",
-      "finish": "holo",
-      "uploadTimestamp": "2026-09-20T19:49:48.664046+00:00",
+      "finish": "standard",
+      "uploadTimestamp": "2026-09-26T01:23:59.712716+00:00",
       "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260920_145038_603e1e_Arch_Fluffy.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260925_202324_e7361a_Arch_Fluffy.png",
       "creator": "Arch_Fluffy",
-      "series": "Aika Genesis",
+      "series": "Rebel Day",
       "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
       "number_in_series": "1"
     },

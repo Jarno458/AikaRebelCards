@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "epic",
-      "finish": "standard",
-      "uploadTimestamp": "2026-09-26T15:11:42.36877+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260926_101107_a8df4b_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "rarity": "rare",
+      "finish": "gold",
+      "uploadTimestamp": "2026-09-27T19:29:37.039586+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260927_142902_b25879_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
       "number_in_series": "1"
     },
     {

@@ -3,11 +3,11 @@
     {
       "slot": 1,
       "rarity": "common",
-      "finish": "neon",
-      "uploadTimestamp": "2026-09-27T20:18:34.03307+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260927_151758_43bb38_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "finish": "foil",
+      "uploadTimestamp": "2026-10-03T15:19:59.160834+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_101856_601314_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
       "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
       "number_in_series": "1"

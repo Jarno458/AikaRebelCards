@@ -74,14 +74,14 @@
     },
     {
       "slot": 7,
-      "rarity": "rare",
-      "finish": "standard",
-      "uploadTimestamp": "2026-09-26T16:32:17.945161+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260926_113143_6acd65_Vocarei.png",
-      "creator": "Vocarei",
+      "rarity": "common",
+      "finish": "glitch",
+      "uploadTimestamp": "2026-10-03T02:04:01.233384+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_210302_968c07_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
       "number_in_series": "1"
     },
     {

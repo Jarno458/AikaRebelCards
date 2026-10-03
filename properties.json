@@ -38,14 +38,14 @@
     },
     {
       "slot": 4,
-      "rarity": "uncommon",
-      "finish": "retro",
-      "uploadTimestamp": "2026-09-27T19:24:34.737754+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260927_142401_30d2f8_Gabura.png",
-      "creator": "Gabura",
+      "rarity": "legendary",
+      "finish": "cracked",
+      "uploadTimestamp": "2026-10-03T02:54:04.154911+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_215305_8a5882_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
       "number_in_series": "1"
     },
     {

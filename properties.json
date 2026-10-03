@@ -98,14 +98,14 @@
     },
     {
       "slot": 9,
-      "rarity": "rare",
-      "finish": "cracked",
-      "uploadTimestamp": "2026-10-03T01:06:59.098597+00:00",
-      "creator": "Vocarei",
+      "rarity": "common",
+      "finish": "phantom",
+      "uploadTimestamp": "2026-10-03T16:52:13.613351+00:00",
+      "creator": "WASABIFUNK",
       "series": "Aika Genesis",
-      "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_200558_fd0d14_Vocarei.png",
+      "description": "WE DON'T BROADCAST WE INVADE.",
+      "name": "Rebel Card — WASABIFUNK",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_115110_f15d13_WASABIFUNK.png",
       "number_in_series": "1"
     },
     {

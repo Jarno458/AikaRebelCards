@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "rare",
-      "finish": "gold",
-      "uploadTimestamp": "2026-09-27T19:29:37.039586+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260927_142902_b25879_Vocarei.png",
-      "creator": "Vocarei",
+      "rarity": "epic",
+      "finish": "foil",
+      "uploadTimestamp": "2026-10-03T15:09:47.727752+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_100843_7510fc_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
       "number_in_series": "1"
     },
     {

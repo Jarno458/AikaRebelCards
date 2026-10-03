@@ -111,13 +111,13 @@
     {
       "slot": 10,
       "rarity": "uncommon",
-      "finish": "gold",
-      "uploadTimestamp": "2026-09-27T20:48:46.3267+00:00",
-      "creator": "Gabura",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-03T16:10:42.586206+00:00",
+      "creator": "GingerHitmanTTV",
       "series": "Aika Genesis",
-      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260927_154812_04dc03_Gabura.png",
+      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_110940_b3cd55_GingerHitmanTTV.png",
       "number_in_series": "1"
     }
   ],

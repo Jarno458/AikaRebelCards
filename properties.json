@@ -14,14 +14,14 @@
     },
     {
       "slot": 2,
-      "rarity": "rare",
-      "finish": "foil",
-      "uploadTimestamp": "2026-09-27T19:39:53.328641+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20260927_143919_d00953_Vocarei.png",
-      "creator": "Vocarei",
+      "rarity": "legendary",
+      "finish": "gold",
+      "uploadTimestamp": "2026-10-03T15:13:04.725813+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_101202_b9ec47_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
       "number_in_series": "1"
     },
     {

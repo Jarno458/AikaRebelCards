@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "epic",
-      "finish": "foil",
-      "uploadTimestamp": "2026-10-03T15:09:47.727752+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_100843_7510fc_Gabura.png",
-      "creator": "Gabura",
+      "rarity": "common",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-04T19:51:05.785901+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_145000_ad527a_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
       "number_in_series": "1"
     },
     {

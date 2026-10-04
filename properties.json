@@ -110,14 +110,14 @@
     },
     {
       "slot": 10,
-      "rarity": "uncommon",
+      "rarity": "rare",
       "finish": "standard",
-      "uploadTimestamp": "2026-10-03T01:42:15.184625+00:00",
+      "uploadTimestamp": "2026-10-04T19:13:13.442086+00:00",
       "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
       "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_204115_c5750d_Arch_Fluffy.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_141207_0a1991_Arch_Fluffy.png",
       "number_in_series": "1"
     }
   ],

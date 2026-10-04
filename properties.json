@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "common",
-      "finish": "foil",
-      "uploadTimestamp": "2026-10-03T15:19:59.160834+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_101856_601314_Vocarei.png",
-      "creator": "Vocarei",
+      "rarity": "uncommon",
+      "finish": "phantom",
+      "uploadTimestamp": "2026-10-04T20:36:14.810119+00:00",
+      "name": "Rebel Card — TS_Jarno",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_153509_f9b130_TS_Jarno.png",
+      "creator": "TS_Jarno",
       "series": "Aika Genesis",
-      "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
+      "description": "WE DON'T BROADCAST WE INVADE.",
       "number_in_series": "1"
     },
     {

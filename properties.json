@@ -86,15 +86,15 @@
     },
     {
       "slot": 8,
-      "rarity": "common",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-03T02:36:04.572678+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_213505_524de9_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "rarity": "epic",
+      "finish": "holo",
+      "uploadTimestamp": "2026-10-04T19:36:16.331871+00:00",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_143510_7d36ec_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
       "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
       "number_in_series": "1",
-      "name": "Rebel Card — Arch_Fluffy"
+      "name": "Rebel Card — Vocarei"
     },
     {
       "slot": 9,

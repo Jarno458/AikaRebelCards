@@ -38,14 +38,14 @@
     },
     {
       "slot": 4,
-      "rarity": "legendary",
+      "rarity": "common",
       "finish": "gold",
-      "uploadTimestamp": "2026-10-03T15:13:04.725813+00:00",
+      "uploadTimestamp": "2026-10-04T20:26:53.806229+00:00",
       "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_101202_b9ec47_Gabura.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_152548_274545_Gabura.png",
       "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
       "number_in_series": "1"
     },
     {

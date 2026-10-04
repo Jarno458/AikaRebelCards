@@ -3,6 +3,30 @@
     {
       "slot": 1,
       "rarity": "common",
+      "finish": "phantom",
+      "uploadTimestamp": "2026-10-03T16:52:13.613351+00:00",
+      "name": "Rebel Card — WASABIFUNK",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_115110_f15d13_WASABIFUNK.png",
+      "creator": "WASABIFUNK",
+      "series": "Aika Genesis",
+      "description": "WE DON'T BROADCAST WE INVADE.",
+      "number_in_series": "1"
+    },
+    {
+      "slot": 2,
+      "rarity": "uncommon",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-03T16:10:42.586206+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_110940_b3cd55_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
+      "series": "Aika Genesis",
+      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "number_in_series": "1"
+    },
+    {
+      "slot": 3,
+      "rarity": "common",
       "finish": "foil",
       "uploadTimestamp": "2026-10-03T15:19:59.160834+00:00",
       "name": "Rebel Card — Vocarei",
@@ -13,7 +37,7 @@
       "number_in_series": "1"
     },
     {
-      "slot": 2,
+      "slot": 4,
       "rarity": "legendary",
       "finish": "gold",
       "uploadTimestamp": "2026-10-03T15:13:04.725813+00:00",
@@ -25,7 +49,7 @@
       "number_in_series": "1"
     },
     {
-      "slot": 3,
+      "slot": 5,
       "rarity": "epic",
       "finish": "foil",
       "uploadTimestamp": "2026-10-03T15:09:47.727752+00:00",
@@ -37,7 +61,7 @@
       "number_in_series": "1"
     },
     {
-      "slot": 4,
+      "slot": 6,
       "rarity": "legendary",
       "finish": "cracked",
       "uploadTimestamp": "2026-10-03T02:54:04.154911+00:00",
@@ -49,7 +73,7 @@
       "number_in_series": "1"
     },
     {
-      "slot": 5,
+      "slot": 7,
       "rarity": "common",
       "finish": "standard",
       "uploadTimestamp": "2026-10-03T02:37:53.730845+00:00",
@@ -61,35 +85,11 @@
       "number_in_series": "1"
     },
     {
-      "slot": 6,
+      "slot": 8,
       "rarity": "common",
       "finish": "standard",
       "uploadTimestamp": "2026-10-03T02:36:04.572678+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
       "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_213505_524de9_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
-      "series": "Aika Genesis",
-      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
-      "number_in_series": "1"
-    },
-    {
-      "slot": 7,
-      "rarity": "common",
-      "finish": "glitch",
-      "uploadTimestamp": "2026-10-03T02:04:01.233384+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_210302_968c07_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
-      "series": "Aika Genesis",
-      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
-      "number_in_series": "1"
-    },
-    {
-      "slot": 8,
-      "rarity": "uncommon",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-03T01:42:15.184625+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_204115_c5750d_Arch_Fluffy.png",
       "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
       "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
@@ -99,25 +99,25 @@
     {
       "slot": 9,
       "rarity": "common",
-      "finish": "phantom",
-      "uploadTimestamp": "2026-10-03T16:52:13.613351+00:00",
-      "creator": "WASABIFUNK",
+      "finish": "glitch",
+      "uploadTimestamp": "2026-10-03T02:04:01.233384+00:00",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
-      "name": "Rebel Card — WASABIFUNK",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_115110_f15d13_WASABIFUNK.png",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_210302_968c07_Arch_Fluffy.png",
       "number_in_series": "1"
     },
     {
       "slot": 10,
       "rarity": "uncommon",
       "finish": "standard",
-      "uploadTimestamp": "2026-10-03T16:10:42.586206+00:00",
-      "creator": "GingerHitmanTTV",
+      "uploadTimestamp": "2026-10-03T01:42:15.184625+00:00",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
       "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_110940_b3cd55_GingerHitmanTTV.png",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261002_204115_c5750d_Arch_Fluffy.png",
       "number_in_series": "1"
     }
   ],

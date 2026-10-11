@@ -2,14 +2,14 @@
   "cards": [
     {
       "slot": 1,
-      "rarity": "common",
-      "finish": "phantom",
-      "uploadTimestamp": "2026-10-03T16:52:13.613351+00:00",
-      "name": "Rebel Card — WASABIFUNK",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261003_115110_f15d13_WASABIFUNK.png",
-      "creator": "WASABIFUNK",
+      "rarity": "epic",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-11T19:11:01.45401+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261011_140955_12b8f0_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
+      "description": "THEY CAN LOCK THE DOORS. WE OWN THE WIRES.",
       "number_in_series": "1"
     },
     {

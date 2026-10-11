@@ -98,14 +98,14 @@
     },
     {
       "slot": 9,
-      "rarity": "legendary",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-04T19:18:25.281213+00:00",
+      "rarity": "common",
+      "finish": "glitch",
+      "uploadTimestamp": "2026-10-11T19:35:23.009515+00:00",
       "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "description": "NO FREQUENCY GOES UNCONTESTED.",
       "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_141717_559437_Vocarei.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261011_143419_fb009b_Vocarei.png",
       "number_in_series": "1"
     },
     {

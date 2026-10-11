@@ -63,13 +63,13 @@
     {
       "slot": 6,
       "rarity": "common",
-      "finish": "foil",
-      "uploadTimestamp": "2026-10-04T19:43:57.284737+00:00",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_144250_e7a787_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-11T19:50:48.273414+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261011_144944_bf6131_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "NO FREQUENCY GOES UNCONTESTED.",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
       "number_in_series": "1"
     },
     {

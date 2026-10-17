@@ -2,12 +2,12 @@
   "cards": [
     {
       "slot": 1,
-      "rarity": "epic",
+      "rarity": "common",
       "finish": "standard",
-      "uploadTimestamp": "2026-10-11T19:11:01.45401+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261011_140955_12b8f0_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "uploadTimestamp": "2026-10-17T15:55:30.752585+00:00",
+      "name": "Rebel Card — TS_Jarno",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_105246_3f911f_TS_Jarno.png",
+      "creator": "TS_Jarno",
       "series": "Aika Genesis",
       "description": "THEY CAN LOCK THE DOORS. WE OWN THE WIRES.",
       "number_in_series": "1"

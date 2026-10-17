@@ -111,13 +111,13 @@
     {
       "slot": 10,
       "rarity": "uncommon",
-      "finish": "foil",
-      "uploadTimestamp": "2026-10-11T19:25:40.542932+00:00",
-      "creator": "Arch_Fluffy",
+      "finish": "gold",
+      "uploadTimestamp": "2026-10-17T16:36:00.107991+00:00",
+      "creator": "Gabura",
       "series": "Aika Genesis",
       "description": "WE DON'T BROADCAST WE INVADE.",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261011_142436_6dcf59_Arch_Fluffy.png",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_113316_3a3a63_Gabura.png",
       "number_in_series": "1"
     }
   ],

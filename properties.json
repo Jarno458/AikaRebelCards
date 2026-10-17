@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "uncommon",
-      "finish": "phantom",
-      "uploadTimestamp": "2026-10-04T20:36:14.810119+00:00",
-      "name": "Rebel Card — TS_Jarno",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_153509_f9b130_TS_Jarno.png",
-      "creator": "TS_Jarno",
+      "rarity": "common",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-17T14:49:10.839713+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_094627_a230d4_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
       "number_in_series": "1"
     },
     {

@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "common",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-04T19:51:05.785901+00:00",
+      "rarity": "rare",
+      "finish": "foil",
+      "uploadTimestamp": "2026-10-17T14:40:09.503228+00:00",
       "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_145000_ad527a_Arch_Fluffy.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_093724_43e29a_Arch_Fluffy.png",
       "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
       "number_in_series": "1"
     },
     {

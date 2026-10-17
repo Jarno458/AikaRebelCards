@@ -99,13 +99,13 @@
     {
       "slot": 9,
       "rarity": "common",
-      "finish": "glitch",
-      "uploadTimestamp": "2026-10-11T19:35:23.009515+00:00",
-      "creator": "Vocarei",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-17T17:00:50.394299+00:00",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "NO FREQUENCY GOES UNCONTESTED.",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261011_143419_fb009b_Vocarei.png",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_115806_c12c8d_Gabura.png",
       "number_in_series": "1"
     },
     {

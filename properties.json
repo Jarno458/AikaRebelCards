@@ -39,13 +39,13 @@
     {
       "slot": 4,
       "rarity": "common",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-04T20:26:53.806229+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261004_152548_274545_Gabura.png",
-      "creator": "Gabura",
+      "finish": "cracked",
+      "uploadTimestamp": "2026-10-17T14:46:03.655688+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_094320_46fa8b_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
       "series": "Aika Genesis",
-      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
+      "description": "NO FREQUENCY GOES UNCONTESTED.",
       "number_in_series": "1"
     },
     {

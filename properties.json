@@ -39,13 +39,13 @@
     {
       "slot": 4,
       "rarity": "common",
-      "finish": "cracked",
-      "uploadTimestamp": "2026-10-17T14:46:03.655688+00:00",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_094320_46fa8b_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-18T19:49:02.85286+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_144604_eb24e2_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "NO FREQUENCY GOES UNCONTESTED.",
+      "description": "EVERY DROP IS A DECLARATION OF WAR.",
       "number_in_series": "1"
     },
     {

@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "common",
+      "rarity": "rare",
       "finish": "standard",
-      "uploadTimestamp": "2026-10-17T14:49:10.839713+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_094627_a230d4_Gabura.png",
-      "creator": "Gabura",
+      "uploadTimestamp": "2026-10-18T20:12:50.141182+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_150826_c38acc_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
       "series": "Aika Genesis",
-      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
+      "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
       "number_in_series": "1"
     },
     {

@@ -62,14 +62,14 @@
     },
     {
       "slot": 6,
-      "rarity": "common",
+      "rarity": "uncommon",
       "finish": "standard",
-      "uploadTimestamp": "2026-10-11T19:50:48.273414+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261011_144944_bf6131_Gabura.png",
-      "creator": "Gabura",
+      "uploadTimestamp": "2026-10-18T19:40:09.783738+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_143712_544637_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
       "number_in_series": "1"
     },
     {

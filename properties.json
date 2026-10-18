@@ -75,13 +75,13 @@
     {
       "slot": 7,
       "rarity": "common",
-      "finish": "foil",
-      "uploadTimestamp": "2026-10-11T19:49:51.065111+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261011_144847_55edbd_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-18T19:04:29.556835+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_140131_d3fbd4_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
+      "description": "WE DON'T BROADCAST WE INVADE.",
       "number_in_series": "1"
     },
     {

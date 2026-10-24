@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "uncommon",
-      "finish": "foil",
-      "uploadTimestamp": "2026-10-18T19:48:15.689135+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_144517_e6506c_Gabura.png",
-      "creator": "Gabura",
+      "rarity": "epic",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-24T02:16:10.526794+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_211604_01b1b5_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
       "number_in_series": "1"
     },
     {

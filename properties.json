@@ -2,14 +2,14 @@
   "cards": [
     {
       "slot": 1,
-      "rarity": "common",
-      "finish": "foil",
-      "uploadTimestamp": "2026-10-24T01:17:57.683755+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_201750_e245ae_Gabura.png",
-      "creator": "Gabura",
+      "rarity": "uncommon",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-24T15:41:07.412328+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261024_104101_ed32ea_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "EVERY DROP IS A DECLARATION OF WAR.",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
       "number_in_series": "1"
     },
     {

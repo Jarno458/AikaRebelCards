@@ -111,13 +111,13 @@
     {
       "slot": 10,
       "rarity": "uncommon",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-17T16:36:00.107991+00:00",
-      "creator": "Gabura",
+      "finish": "holo",
+      "uploadTimestamp": "2026-10-24T01:21:00.926903+00:00",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_113316_3a3a63_Gabura.png",
+      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_202055_ef9412_Vocarei.png",
       "number_in_series": "1"
     }
   ],

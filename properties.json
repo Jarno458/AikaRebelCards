@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "rare",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-18T20:12:50.141182+00:00",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_150826_c38acc_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
+      "rarity": "epic",
+      "finish": "phantom",
+      "uploadTimestamp": "2026-10-24T02:37:53.795873+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_213748_74e7dd_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
+      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
       "number_in_series": "1"
     },
     {

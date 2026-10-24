@@ -111,13 +111,13 @@
     {
       "slot": 10,
       "rarity": "uncommon",
-      "finish": "holo",
-      "uploadTimestamp": "2026-10-24T01:21:00.926903+00:00",
-      "creator": "Vocarei",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-24T16:00:03.784968+00:00",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_202055_ef9412_Vocarei.png",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261024_105957_d39622_Gabura.png",
       "number_in_series": "1"
     }
   ],

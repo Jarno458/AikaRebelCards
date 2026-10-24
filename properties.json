@@ -86,13 +86,13 @@
     },
     {
       "slot": 8,
-      "rarity": "rare",
-      "finish": "foil",
-      "uploadTimestamp": "2026-10-18T18:52:13.759219+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_134913_9a8935_Arch_Fluffy.png",
+      "rarity": "common",
+      "finish": "holo",
+      "uploadTimestamp": "2026-10-24T01:51:07.420694+00:00",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_205101_6a705e_Arch_Fluffy.png",
       "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "WE DON'T BROADCAST WE INVADE.",
       "number_in_series": "1",
       "name": "Rebel Card — Arch_Fluffy"
     },

@@ -14,14 +14,14 @@
     },
     {
       "slot": 2,
-      "rarity": "uncommon",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-18T20:46:15.850139+00:00",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_154314_7a29bd_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
+      "rarity": "common",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-24T15:17:11.131339+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261024_101702_b912bb_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
+      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
       "number_in_series": "1"
     },
     {

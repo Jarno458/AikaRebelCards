@@ -3,13 +3,13 @@
     {
       "slot": 1,
       "rarity": "common",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-17T15:55:30.752585+00:00",
-      "name": "Rebel Card — TS_Jarno",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261017_105246_3f911f_TS_Jarno.png",
-      "creator": "TS_Jarno",
+      "finish": "foil",
+      "uploadTimestamp": "2026-10-24T01:17:57.683755+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_201750_e245ae_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "THEY CAN LOCK THE DOORS. WE OWN THE WIRES.",
+      "description": "EVERY DROP IS A DECLARATION OF WAR.",
       "number_in_series": "1"
     },
     {

@@ -74,14 +74,14 @@
     },
     {
       "slot": 7,
-      "rarity": "common",
+      "rarity": "uncommon",
       "finish": "standard",
-      "uploadTimestamp": "2026-10-18T19:04:29.556835+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_140131_d3fbd4_Gabura.png",
-      "creator": "Gabura",
+      "uploadTimestamp": "2026-10-24T01:58:56.122254+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_205851_52b3a5_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
       "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
+      "description": "EVERY DROP IS A DECLARATION OF WAR.",
       "number_in_series": "1"
     },
     {

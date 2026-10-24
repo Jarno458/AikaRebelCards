@@ -39,13 +39,13 @@
     {
       "slot": 4,
       "rarity": "common",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-18T19:49:02.85286+00:00",
+      "finish": "neon",
+      "uploadTimestamp": "2026-10-24T02:35:42.349666+00:00",
       "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261018_144604_eb24e2_Arch_Fluffy.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_213536_a41f31_Arch_Fluffy.png",
       "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "EVERY DROP IS A DECLARATION OF WAR.",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
       "number_in_series": "1"
     },
     {

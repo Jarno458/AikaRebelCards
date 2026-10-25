@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "epic",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-24T02:16:10.526794+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_211604_01b1b5_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
-      "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "rarity": "common",
+      "finish": "gold",
+      "uploadTimestamp": "2026-10-25T20:07:35.817274+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_150730_af1a6c_Gabura.png",
+      "creator": "Gabura",
+      "series": "Scarefest 2026",
+      "description": "IF THE AIRWAVES ARE SILENT, IT MEANS THEY ALREADY TOOK THEM.",
       "number_in_series": "1"
     },
     {

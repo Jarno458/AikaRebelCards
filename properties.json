@@ -2,14 +2,14 @@
   "cards": [
     {
       "slot": 1,
-      "rarity": "uncommon",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-24T15:41:07.412328+00:00",
+      "rarity": "common",
+      "finish": "gold",
+      "uploadTimestamp": "2026-10-25T20:55:03.189754+00:00",
       "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261024_104101_ed32ea_Arch_Fluffy.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_155457_60c2e0_Arch_Fluffy.png",
       "creator": "Arch_Fluffy",
-      "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "series": "Scarefest 2026",
+      "description": "YOU CANNOT CUT THE WIRES OF A GHOST.",
       "number_in_series": "1"
     },
     {

@@ -86,15 +86,15 @@
     },
     {
       "slot": 8,
-      "rarity": "common",
-      "finish": "holo",
-      "uploadTimestamp": "2026-10-24T01:51:07.420694+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261023_205101_6a705e_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
-      "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
+      "rarity": "legendary",
+      "finish": "cracked",
+      "uploadTimestamp": "2026-10-25T19:14:20.400516+00:00",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_141415_9be9da_Gabura.png",
+      "creator": "Gabura",
+      "series": "Scarefest 2026",
+      "description": "YOU CANNOT CUT THE WIRES OF A GHOST.",
       "number_in_series": "1",
-      "name": "Rebel Card — Arch_Fluffy"
+      "name": "Rebel Card — Gabura"
     },
     {
       "slot": 9,

@@ -14,14 +14,14 @@
     },
     {
       "slot": 2,
-      "rarity": "common",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-24T15:17:11.131339+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261024_101702_b912bb_Vocarei.png",
-      "creator": "Vocarei",
-      "series": "Aika Genesis",
-      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
+      "rarity": "legendary",
+      "finish": "gold",
+      "uploadTimestamp": "2026-10-25T20:37:39.240555+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_153734_2812c5_Gabura.png",
+      "creator": "Gabura",
+      "series": "Scarefest 2026",
+      "description": "BURIED BENEATH THE CONCRETE, THE DEAD ARE STILL LISTENING.",
       "number_in_series": "1"
     },
     {

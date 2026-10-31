@@ -39,13 +39,13 @@
     {
       "slot": 4,
       "rarity": "uncommon",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-25T20:09:14.715662+00:00",
-      "name": "Rebel Card — TS_Jarno",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_150909_fdf3cf_TS_Jarno.png",
-      "creator": "TS_Jarno",
+      "finish": "glitch",
+      "uploadTimestamp": "2026-10-31T15:12:18.76812+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_101212_4b63be_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Scarefest 2026",
-      "description": "THE VOID WHISPERS BACK WHEN THE SUB-BASS PEAKS.",
+      "description": "SOME SIGNALS NEVER DIE. THEY JUST HAUNT THE GRID.",
       "number_in_series": "1"
     },
     {

@@ -3,13 +3,13 @@
     {
       "slot": 1,
       "rarity": "common",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-25T20:55:03.189754+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_155457_60c2e0_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-31T15:30:11.582532+00:00",
+      "name": "Rebel Card — aika_vrdj",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_103004_c00117_aika_vrdj.png",
+      "creator": "aika_vrdj",
       "series": "Scarefest 2026",
-      "description": "YOU CANNOT CUT THE WIRES OF A GHOST.",
+      "description": "WELCOME TO THE VOID. THERE IS NO BROADCAST BACK.",
       "number_in_series": "1"
     },
     {

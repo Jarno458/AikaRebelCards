@@ -62,14 +62,14 @@
     },
     {
       "slot": 6,
-      "rarity": "common",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-25T19:55:17.586971+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_145511_eb5a49_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "rarity": "epic",
+      "finish": "gold",
+      "uploadTimestamp": "2026-10-31T02:47:26.925157+00:00",
+      "name": "Rebel Card — WASABIFUNK",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261030_214719_b69017_WASABIFUNK.png",
+      "creator": "WASABIFUNK",
       "series": "Scarefest 2026",
-      "description": "EVERY FREQUENCY CARRIES A SOUL WE LOST IN THE DARK.",
+      "description": "THE SIGNAL DOESN'T SLEEP. NEITHER WILL YOU.",
       "number_in_series": "1"
     },
     {

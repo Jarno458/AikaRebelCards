@@ -62,14 +62,14 @@
     },
     {
       "slot": 6,
-      "rarity": "epic",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-31T02:47:26.925157+00:00",
+      "rarity": "uncommon",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-31T16:44:35.945086+00:00",
       "name": "Rebel Card — WASABIFUNK",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261030_214719_b69017_WASABIFUNK.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_114429_a8af00_WASABIFUNK.png",
       "creator": "WASABIFUNK",
       "series": "Scarefest 2026",
-      "description": "THE SIGNAL DOESN'T SLEEP. NEITHER WILL YOU.",
+      "description": "WELCOME TO THE VOID. THERE IS NO BROADCAST BACK.",
       "number_in_series": "1"
     },
     {

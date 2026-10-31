@@ -86,15 +86,15 @@
     },
     {
       "slot": 8,
-      "rarity": "epic",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-31T01:32:25.127712+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261030_203218_46f6cd_Gabura.png",
-      "creator": "Gabura",
+      "rarity": "rare",
+      "finish": "holo",
+      "uploadTimestamp": "2026-10-31T16:25:53.204869+00:00",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_112546_305ba3_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Scarefest 2026",
-      "description": "SOME SIGNALS NEVER DIE. THEY JUST HAUNT THE GRID.",
+      "description": "BURIED BENEATH THE CONCRETE, THE DEAD ARE STILL LISTENING.",
       "number_in_series": "1",
-      "name": "Rebel Card — Gabura"
+      "name": "Rebel Card — Arch_Fluffy"
     },
     {
       "slot": 9,

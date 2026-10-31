@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "common",
+      "rarity": "uncommon",
       "finish": "gold",
-      "uploadTimestamp": "2026-10-25T20:07:35.817274+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_150730_af1a6c_Gabura.png",
-      "creator": "Gabura",
+      "uploadTimestamp": "2026-10-31T14:53:27.69759+00:00",
+      "name": "Rebel Card — Gabura_",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_095320_b0540a_Gabura_.png",
+      "creator": "Gabura_",
       "series": "Scarefest 2026",
-      "description": "IF THE AIRWAVES ARE SILENT, IT MEANS THEY ALREADY TOOK THEM.",
+      "description": "THE BEAT IS A SUMMONING. LOOK BEHIND YOU.",
       "number_in_series": "1"
     },
     {

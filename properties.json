@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "rare",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-25T20:31:40.684748+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_153136_78ac94_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "rarity": "mythic",
+      "finish": "foil",
+      "uploadTimestamp": "2026-10-31T15:17:20.488514+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_101715_d1fad4_Gabura.png",
+      "creator": "Gabura",
       "series": "Scarefest 2026",
-      "description": "DANCE UNTIL YOUR SHADOW FORGETS WHO YOU ARE.",
+      "description": "SOME SIGNALS NEVER DIE. THEY JUST HAUNT THE GRID.",
       "number_in_series": "1"
     },
     {

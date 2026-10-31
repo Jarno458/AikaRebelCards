@@ -75,13 +75,13 @@
     {
       "slot": 7,
       "rarity": "uncommon",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-31T02:30:32.733748+00:00",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-31T16:29:25.549689+00:00",
       "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261030_213027_6afecb_Vocarei.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_112920_4aac53_Vocarei.png",
       "creator": "Vocarei",
       "series": "Scarefest 2026",
-      "description": "DANCE UNTIL YOUR SHADOW FORGETS WHO YOU ARE.",
+      "description": "WE DON'T BROADCAST REVOLT. WE BROADCAST TERROR.",
       "number_in_series": "1"
     },
     {

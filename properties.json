@@ -111,13 +111,13 @@
     {
       "slot": 10,
       "rarity": "uncommon",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-24T16:00:03.784968+00:00",
+      "finish": "foil",
+      "uploadTimestamp": "2026-10-31T01:14:13.000975+00:00",
       "creator": "Gabura",
-      "series": "Aika Genesis",
-      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "series": "Scarefest 2026",
+      "description": "DANCE UNTIL YOUR SHADOW FORGETS WHO YOU ARE.",
       "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261024_105957_d39622_Gabura.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261030_201405_e816cd_Gabura.png",
       "number_in_series": "1"
     }
   ],

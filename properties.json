@@ -14,14 +14,14 @@
     },
     {
       "slot": 2,
-      "rarity": "legendary",
-      "finish": "gold",
-      "uploadTimestamp": "2026-10-25T20:37:39.240555+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261025_153734_2812c5_Gabura.png",
-      "creator": "Gabura",
+      "rarity": "uncommon",
+      "finish": "standard",
+      "uploadTimestamp": "2026-10-31T15:22:51.872218+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_102246_7c9ec2_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Scarefest 2026",
-      "description": "BURIED BENEATH THE CONCRETE, THE DEAD ARE STILL LISTENING.",
+      "description": "IF THE AIRWAVES ARE SILENT, IT MEANS THEY ALREADY TOOK THEM.",
       "number_in_series": "1"
     },
     {

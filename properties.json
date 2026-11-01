@@ -38,14 +38,14 @@
     },
     {
       "slot": 4,
-      "rarity": "uncommon",
-      "finish": "glitch",
-      "uploadTimestamp": "2026-10-31T15:12:18.76812+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_101212_4b63be_Vocarei.png",
-      "creator": "Vocarei",
+      "rarity": "epic",
+      "finish": "standard",
+      "uploadTimestamp": "2026-11-01T19:35:09.686437+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261101_143504_20d408_Gabura.png",
+      "creator": "Gabura",
       "series": "Scarefest 2026",
-      "description": "SOME SIGNALS NEVER DIE. THEY JUST HAUNT THE GRID.",
+      "description": "THE VOID WHISPERS BACK WHEN THE SUB-BASS PEAKS.",
       "number_in_series": "1"
     },
     {

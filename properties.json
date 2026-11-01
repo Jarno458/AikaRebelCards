@@ -110,14 +110,14 @@
     },
     {
       "slot": 10,
-      "rarity": "legendary",
+      "rarity": "epic",
       "finish": "standard",
-      "uploadTimestamp": "2026-10-31T15:36:58.522448+00:00",
+      "uploadTimestamp": "2026-11-01T20:42:42.205982+00:00",
       "creator": "Arch_Fluffy",
       "series": "Scarefest 2026",
-      "description": "SOME SIGNALS NEVER DIE. THEY JUST HAUNT THE GRID.",
+      "description": "THE SIGNAL DOESN'T SLEEP. NEITHER WILL YOU.",
       "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_103652_41598d_Arch_Fluffy.png",
+      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261101_154236_193bff_Arch_Fluffy.png",
       "number_in_series": "1"
     }
   ],

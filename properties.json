@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "epic",
-      "finish": "foil",
-      "uploadTimestamp": "2026-11-07T01:48:17.038069+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_204811_b3410a_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "rarity": "common",
+      "finish": "standard",
+      "uploadTimestamp": "2026-11-07T15:47:54.842206+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_104750_022d6e_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
+      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
       "number_in_series": "1"
     },
     {

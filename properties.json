@@ -62,14 +62,14 @@
     },
     {
       "slot": 6,
-      "rarity": "legendary",
-      "finish": "gold",
-      "uploadTimestamp": "2026-11-07T15:36:55.413776+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_103649_9582fa_Gabura.png",
-      "creator": "Gabura",
+      "rarity": "uncommon",
+      "finish": "cracked",
+      "uploadTimestamp": "2026-11-07T16:32:22.931597+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_113214_927fcf_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
       "series": "Aika Genesis",
-      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
+      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
       "number_in_series": "1"
     },
     {

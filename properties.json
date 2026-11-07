@@ -2,14 +2,14 @@
   "cards": [
     {
       "slot": 1,
-      "rarity": "rare",
+      "rarity": "uncommon",
       "finish": "foil",
-      "uploadTimestamp": "2026-11-01T19:59:11.219185+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261101_145903_074241_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
-      "series": "Scarefest 2026",
-      "description": "DANCE UNTIL YOUR SHADOW FORGETS WHO YOU ARE.",
+      "uploadTimestamp": "2026-11-07T02:14:28.725873+00:00",
+      "name": "Rebel Card — style47",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_211423_0578f1_style47.png",
+      "creator": "style47",
+      "series": "Aika Genesis",
+      "description": "THEY CAN LOCK THE DOORS. WE OWN THE WIRES.",
       "number_in_series": "1"
     },
     {

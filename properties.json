@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "uncommon",
-      "finish": "standard",
-      "uploadTimestamp": "2026-11-07T15:38:41.806306+00:00",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_103836_fce55f_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
+      "rarity": "mythic",
+      "finish": "cracked",
+      "uploadTimestamp": "2026-11-07T16:40:44.007958+00:00",
+      "name": "Rebel Card — TS_Jarno",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_114038_1c3ba0_TS_Jarno.png",
+      "creator": "TS_Jarno",
       "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
       "number_in_series": "1"
     },
     {

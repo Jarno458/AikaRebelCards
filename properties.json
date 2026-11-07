@@ -110,14 +110,14 @@
     },
     {
       "slot": 10,
-      "rarity": "epic",
-      "finish": "standard",
-      "uploadTimestamp": "2026-11-01T20:42:42.205982+00:00",
-      "creator": "Arch_Fluffy",
-      "series": "Scarefest 2026",
-      "description": "THE SIGNAL DOESN'T SLEEP. NEITHER WILL YOU.",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261101_154236_193bff_Arch_Fluffy.png",
+      "rarity": "common",
+      "finish": "neon",
+      "uploadTimestamp": "2026-11-07T02:37:04.087987+00:00",
+      "creator": "GingerHitmanTTV",
+      "series": "Aika Genesis",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_213657_e8f93a_GingerHitmanTTV.png",
       "number_in_series": "1"
     }
   ],

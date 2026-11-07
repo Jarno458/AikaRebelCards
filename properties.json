@@ -86,13 +86,13 @@
     },
     {
       "slot": 8,
-      "rarity": "common",
-      "finish": "gold",
-      "uploadTimestamp": "2026-11-07T00:55:18.862891+00:00",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_195511_1c8917_GingerHitmanTTV.png",
+      "rarity": "uncommon",
+      "finish": "foil",
+      "uploadTimestamp": "2026-11-07T15:28:19.131641+00:00",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_102812_0f9525_GingerHitmanTTV.png",
       "creator": "GingerHitmanTTV",
       "series": "Aika Genesis",
-      "description": "EVERY DROP IS A DECLARATION OF WAR.",
+      "description": "NO FREQUENCY GOES UNCONTESTED.",
       "number_in_series": "1",
       "name": "Rebel Card — GingerHitmanTTV"
     },

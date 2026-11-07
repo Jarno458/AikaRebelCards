@@ -27,13 +27,13 @@
     {
       "slot": 3,
       "rarity": "epic",
-      "finish": "standard",
-      "uploadTimestamp": "2026-11-01T19:39:12.914933+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261101_143907_126b33_Gabura.png",
-      "creator": "Gabura",
-      "series": "Scarefest 2026",
-      "description": "THE VOID WHISPERS BACK WHEN THE SUB-BASS PEAKS.",
+      "finish": "foil",
+      "uploadTimestamp": "2026-11-07T01:48:17.038069+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_204811_b3410a_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
+      "series": "Aika Genesis",
+      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
       "number_in_series": "1"
     },
     {

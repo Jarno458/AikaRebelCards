@@ -86,15 +86,15 @@
     },
     {
       "slot": 8,
-      "rarity": "rare",
-      "finish": "holo",
-      "uploadTimestamp": "2026-10-31T16:25:53.204869+00:00",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_112546_305ba3_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
-      "series": "Scarefest 2026",
-      "description": "BURIED BENEATH THE CONCRETE, THE DEAD ARE STILL LISTENING.",
+      "rarity": "common",
+      "finish": "gold",
+      "uploadTimestamp": "2026-11-07T00:55:18.862891+00:00",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_195511_1c8917_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
+      "series": "Aika Genesis",
+      "description": "EVERY DROP IS A DECLARATION OF WAR.",
       "number_in_series": "1",
-      "name": "Rebel Card — Arch_Fluffy"
+      "name": "Rebel Card — GingerHitmanTTV"
     },
     {
       "slot": 9,

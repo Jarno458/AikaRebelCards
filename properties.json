@@ -62,14 +62,14 @@
     },
     {
       "slot": 6,
-      "rarity": "uncommon",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-31T16:44:35.945086+00:00",
-      "name": "Rebel Card — WASABIFUNK",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_114429_a8af00_WASABIFUNK.png",
-      "creator": "WASABIFUNK",
-      "series": "Scarefest 2026",
-      "description": "WELCOME TO THE VOID. THERE IS NO BROADCAST BACK.",
+      "rarity": "rare",
+      "finish": "holo",
+      "uploadTimestamp": "2026-11-07T01:23:50.53216+00:00",
+      "name": "Rebel Card — style47",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_202345_1f78e8_style47.png",
+      "creator": "style47",
+      "series": "Aika Genesis",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
       "number_in_series": "1"
     },
     {

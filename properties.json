@@ -62,14 +62,14 @@
     },
     {
       "slot": 6,
-      "rarity": "rare",
-      "finish": "holo",
-      "uploadTimestamp": "2026-11-07T01:23:50.53216+00:00",
-      "name": "Rebel Card — style47",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_202345_1f78e8_style47.png",
-      "creator": "style47",
+      "rarity": "legendary",
+      "finish": "gold",
+      "uploadTimestamp": "2026-11-07T15:36:55.413776+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_103649_9582fa_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
+      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
       "number_in_series": "1"
     },
     {

@@ -74,14 +74,14 @@
     },
     {
       "slot": 7,
-      "rarity": "uncommon",
-      "finish": "standard",
-      "uploadTimestamp": "2026-10-31T16:29:25.549689+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://twyfuamtvdbtbnvbalbe.supabase.co/storage/v1/object/public/card-images/cards/card_20261031_112920_4aac53_Vocarei.png",
-      "creator": "Vocarei",
-      "series": "Scarefest 2026",
-      "description": "WE DON'T BROADCAST REVOLT. WE BROADCAST TERROR.",
+      "rarity": "legendary",
+      "finish": "foil",
+      "uploadTimestamp": "2026-11-07T01:18:34.679161+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261106_201828_b3064e_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
+      "series": "Aika Genesis",
+      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
       "number_in_series": "1"
     },
     {

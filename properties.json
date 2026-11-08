@@ -110,14 +110,14 @@
     },
     {
       "slot": 10,
-      "rarity": "rare",
-      "finish": "holo",
-      "uploadTimestamp": "2026-11-07T16:03:00.019186+00:00",
-      "creator": "Gabura",
+      "rarity": "legendary",
+      "finish": "standard",
+      "uploadTimestamp": "2026-11-08T19:32:24.533416+00:00",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_110255_3e8e9b_Gabura.png",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261108_143219_d62efc_Vocarei.png",
       "number_in_series": "1"
     }
   ],

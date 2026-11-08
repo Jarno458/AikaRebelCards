@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "common",
-      "finish": "standard",
-      "uploadTimestamp": "2026-11-07T15:47:54.842206+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_104750_022d6e_Vocarei.png",
-      "creator": "Vocarei",
+      "rarity": "epic",
+      "finish": "foil",
+      "uploadTimestamp": "2026-11-08T19:11:35.463717+00:00",
+      "name": "Rebel Card — GingerHitmanTTV",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261108_141128_b71b0d_GingerHitmanTTV.png",
+      "creator": "GingerHitmanTTV",
       "series": "Aika Genesis",
-      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
+      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
       "number_in_series": "1"
     },
     {

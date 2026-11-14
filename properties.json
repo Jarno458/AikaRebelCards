@@ -74,14 +74,14 @@
     },
     {
       "slot": 7,
-      "rarity": "epic",
-      "finish": "foil",
-      "uploadTimestamp": "2026-11-07T16:23:57.001259+00:00",
-      "name": "Rebel Card — aika_vrdj",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_112352_1d961c_aika_vrdj.png",
-      "creator": "aika_vrdj",
+      "rarity": "common",
+      "finish": "standard",
+      "uploadTimestamp": "2026-11-14T01:47:01.144794+00:00",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261113_204655_fb6de0_Arch_Fluffy.png",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
+      "description": "THE BEAT IS THE WEAPON. AIM CAREFULLY.",
       "number_in_series": "1"
     },
     {

@@ -26,14 +26,14 @@
     },
     {
       "slot": 3,
-      "rarity": "epic",
-      "finish": "foil",
-      "uploadTimestamp": "2026-11-08T19:11:35.463717+00:00",
-      "name": "Rebel Card — GingerHitmanTTV",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261108_141128_b71b0d_GingerHitmanTTV.png",
-      "creator": "GingerHitmanTTV",
+      "rarity": "common",
+      "finish": "gold",
+      "uploadTimestamp": "2026-11-14T17:01:53.369208+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261114_120147_3f84a6_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
+      "description": "WE DON'T BROADCAST WE INVADE.",
       "number_in_series": "1"
     },
     {

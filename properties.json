@@ -86,15 +86,15 @@
     },
     {
       "slot": 8,
-      "rarity": "epic",
-      "finish": "holo",
-      "uploadTimestamp": "2026-11-07T16:18:58.574467+00:00",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_111851_880588_TS_Jarno.png",
-      "creator": "TS_Jarno",
+      "rarity": "rare",
+      "finish": "standard",
+      "uploadTimestamp": "2026-11-14T01:35:47.414935+00:00",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261113_203541_842b47_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
       "number_in_series": "1",
-      "name": "Rebel Card — TS_Jarno"
+      "name": "Rebel Card — Vocarei"
     },
     {
       "slot": 9,

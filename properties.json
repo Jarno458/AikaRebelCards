@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "mythic",
-      "finish": "cracked",
-      "uploadTimestamp": "2026-11-07T16:40:44.007958+00:00",
-      "name": "Rebel Card — TS_Jarno",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261107_114038_1c3ba0_TS_Jarno.png",
-      "creator": "TS_Jarno",
+      "rarity": "rare",
+      "finish": "standard",
+      "uploadTimestamp": "2026-11-14T15:48:56.781243+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261114_104851_01507d_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
       "number_in_series": "1"
     },
     {

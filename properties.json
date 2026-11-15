@@ -86,13 +86,13 @@
     },
     {
       "slot": 8,
-      "rarity": "rare",
-      "finish": "standard",
-      "uploadTimestamp": "2026-11-14T01:35:47.414935+00:00",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261113_203541_842b47_Vocarei.png",
+      "rarity": "uncommon",
+      "finish": "holo",
+      "uploadTimestamp": "2026-11-15T20:05:12.463066+00:00",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261115_150506_7630ec_Vocarei.png",
       "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
+      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
       "number_in_series": "1",
       "name": "Rebel Card — Vocarei"
     },

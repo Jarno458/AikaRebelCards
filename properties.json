@@ -110,14 +110,14 @@
     },
     {
       "slot": 10,
-      "rarity": "legendary",
-      "finish": "standard",
-      "uploadTimestamp": "2026-11-08T19:32:24.533416+00:00",
-      "creator": "Vocarei",
+      "rarity": "common",
+      "finish": "phantom",
+      "uploadTimestamp": "2026-11-15T19:41:13.671028+00:00",
+      "creator": "Arch_Fluffy",
       "series": "Aika Genesis",
-      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261108_143219_d62efc_Vocarei.png",
+      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261115_144108_5240ee_Arch_Fluffy.png",
       "number_in_series": "1"
     }
   ],

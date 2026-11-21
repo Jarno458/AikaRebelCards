@@ -74,12 +74,12 @@
     },
     {
       "slot": 7,
-      "rarity": "common",
-      "finish": "foil",
-      "uploadTimestamp": "2026-11-21T01:11:50.655188+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261120_201144_887463_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "rarity": "uncommon",
+      "finish": "standard",
+      "uploadTimestamp": "2026-11-21T15:35:31.093247+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261121_103525_403870_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
       "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
       "number_in_series": "1"

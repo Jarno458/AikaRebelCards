@@ -14,14 +14,14 @@
     },
     {
       "slot": 2,
-      "rarity": "rare",
+      "rarity": "common",
       "finish": "standard",
-      "uploadTimestamp": "2026-11-15T19:24:51.387428+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261115_142444_62df75_Gabura.png",
-      "creator": "Gabura",
+      "uploadTimestamp": "2026-11-21T02:18:12.282469+00:00",
+      "name": "Rebel Card — Vocarei",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261120_211806_b4c35c_Vocarei.png",
+      "creator": "Vocarei",
       "series": "Aika Genesis",
-      "description": "WE DON'T BROADCAST WE INVADE.",
+      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
       "number_in_series": "1"
     },
     {

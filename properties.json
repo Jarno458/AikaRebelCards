@@ -62,12 +62,12 @@
     },
     {
       "slot": 6,
-      "rarity": "common",
+      "rarity": "epic",
       "finish": "standard",
-      "uploadTimestamp": "2026-11-21T01:31:46.628432+00:00",
-      "name": "Rebel Card — style47",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261120_203139_633cf4_style47.png",
-      "creator": "style47",
+      "uploadTimestamp": "2026-11-21T16:07:59.881193+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261121_110754_0404c8_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
       "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
       "number_in_series": "1"

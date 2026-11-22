@@ -2,14 +2,14 @@
   "cards": [
     {
       "slot": 1,
-      "rarity": "epic",
+      "rarity": "common",
       "finish": "standard",
-      "uploadTimestamp": "2026-11-21T02:30:44.490507+00:00",
-      "name": "Rebel Card — Arch_Fluffy",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261120_213038_33f33b_Arch_Fluffy.png",
-      "creator": "Arch_Fluffy",
+      "uploadTimestamp": "2026-11-22T19:20:18.965172+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261122_142013_032fe9_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "CODE IS OUR ARMOR. RHYTHM IS OUR BLOOD.",
+      "description": "SILENCE THEM WITH SOUND. BURN IT DOWN WITH BASS.",
       "number_in_series": "1"
     },
     {

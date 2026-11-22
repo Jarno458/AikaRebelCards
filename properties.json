@@ -74,14 +74,14 @@
     },
     {
       "slot": 7,
-      "rarity": "uncommon",
-      "finish": "standard",
-      "uploadTimestamp": "2026-11-21T15:35:31.093247+00:00",
+      "rarity": "common",
+      "finish": "foil",
+      "uploadTimestamp": "2026-11-22T20:35:55.428722+00:00",
       "name": "Rebel Card — Gabura",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261121_103525_403870_Gabura.png",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261122_153549_5cc278_Gabura.png",
       "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "IF THE AIRWAVES ARE SILENT, MAKE THEM SCREAM.",
+      "description": "THEY CAN LOCK THE DOORS. WE OWN THE WIRES.",
       "number_in_series": "1"
     },
     {

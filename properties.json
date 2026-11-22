@@ -50,14 +50,14 @@
     },
     {
       "slot": 5,
-      "rarity": "rare",
+      "rarity": "epic",
       "finish": "standard",
-      "uploadTimestamp": "2026-11-21T16:23:23.90321+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261121_112318_39cab5_Vocarei.png",
-      "creator": "Vocarei",
+      "uploadTimestamp": "2026-11-22T20:44:03.250578+00:00",
+      "name": "Rebel Card — Gabura",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261122_154357_503ef4_Gabura.png",
+      "creator": "Gabura",
       "series": "Aika Genesis",
-      "description": "NO FREQUENCY GOES UNCONTESTED.",
+      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
       "number_in_series": "1"
     },
     {

@@ -110,14 +110,14 @@
     },
     {
       "slot": 10,
-      "rarity": "rare",
-      "finish": "retro",
-      "uploadTimestamp": "2026-11-22T19:41:18.173358+00:00",
-      "creator": "Gabura",
-      "series": "Aika Genesis",
-      "description": "STATIC IS THE SOUND OF FREEDOM LOADING.",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261122_144112_69ffad_Gabura.png",
+      "rarity": "uncommon",
+      "finish": "holo",
+      "uploadTimestamp": "2026-11-28T15:15:47.239691+00:00",
+      "creator": "Arch_Fluffy",
+      "series": "5th Anniversary",
+      "description": "EVERY DROP IS A DECLARATION OF WAR.",
+      "name": "Rebel Card — Arch_Fluffy",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261128_101542_9e6981_Arch_Fluffy.png",
       "number_in_series": "1"
     }
   ],

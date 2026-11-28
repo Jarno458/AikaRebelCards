@@ -38,14 +38,14 @@
     },
     {
       "slot": 4,
-      "rarity": "common",
-      "finish": "phantom",
-      "uploadTimestamp": "2026-11-28T00:56:51.479439+00:00",
-      "name": "Rebel Card — Gabura",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261127_195644_04416d_Gabura.png",
-      "creator": "Gabura",
+      "rarity": "uncommon",
+      "finish": "standard",
+      "uploadTimestamp": "2026-11-28T16:03:36.719788+00:00",
+      "name": "Rebel Card — style47",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261128_110331_cf18f9_style47.png",
+      "creator": "style47",
       "series": "5th Anniversary",
-      "description": "THE UNDERGROUND IS EVERYWHERE NOW.",
+      "description": "NO FREQUENCY GOES UNCONTESTED.",
       "number_in_series": "1"
     },
     {

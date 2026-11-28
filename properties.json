@@ -62,14 +62,14 @@
     },
     {
       "slot": 6,
-      "rarity": "epic",
+      "rarity": "rare",
       "finish": "standard",
-      "uploadTimestamp": "2026-11-22T20:41:11.52184+00:00",
-      "name": "Rebel Card — Vocarei",
-      "image_url": "https://cdn.rebelcards.cc/cards/card_20261122_154106_8515db_Vocarei.png",
-      "creator": "Vocarei",
-      "series": "Aika Genesis",
-      "description": "THEY CONTROL THE SYSTEM. WE CONTROL THE FREQUENCY.",
+      "uploadTimestamp": "2026-11-28T15:39:42.420153+00:00",
+      "name": "Rebel Card — style47",
+      "image_url": "https://cdn.rebelcards.cc/cards/card_20261128_103938_893558_style47.png",
+      "creator": "style47",
+      "series": "5th Anniversary",
+      "description": "THEY TRY TO QUIET US. WE MAKE NOISE.",
       "number_in_series": "1"
     },
     {
